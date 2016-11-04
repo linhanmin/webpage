@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Vote">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="jquery-3.1.1.min.js"></script>
+<title>Vote Chart</title>
+<style>
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+canvas {
+	display: block;
+	position: relative;
+	left: 50%;
+	margin: 0 0 0 -300px;
+}
+.text_area {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+#text,
+#text2 {
+	color: #333;
+	font: 30px/45px "Microsoft JhengHei", Arial;
+}
+#text span {
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	margin-left: 20px;
+	border: 1px solid #333;
+}
+#text p {
+	font: 24px/36px "Microsoft JhengHei", Arial;
+}
+</style>
+</head>
+<body>
+<div class="text_area">
+	<div id="text"></div>
+	<div id="text2"></div>
+</div>
+<canvas id="Chart" width="600" height="600"></canvas>
+<script>
+var data = [],
+	request = new XMLHttpRequest(),
+	canvas = document.getElementById('Chart'),
+	ctx = canvas.getContext("2d"),
+	// colors = [
+	// 	'rgba(255, 99, 132, 0.6)',
+	// 	'rgba(54, 162, 235, 0.6)',
+	// 	'rgba(255, 206, 86, 0.6)',
+	// 	'rgba(75, 192, 192, 0.6)',
+	// 	'rgba(153, 102, 255, 0.6)'
+	// ],
+	// hoverColors = [
+	// 	'rgba(255, 99, 132, 1)',
+	// 	'rgba(54, 162, 235, 1)',
+	// 	'rgba(255, 206, 86, 1)',
+	// 	'rgba(75, 192, 192, 1)',
+	// 	'rgba(153, 102, 255, 1)'
+	// ],
+	labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
+	center = [300, 300],
+	radius = 200,
+	op = -Math.PI/2,
+	dp,
+	dn = [],
+	total = 0,
+	isHover = [];
+$(function(){
+	canvas.width = window.innerWidth;
+	if (canvas.height < window.innerHeight) {
+		canvas.height = window.innerHeight;
+		$('canvas').css({
+			'left': 0,
+			'margin': 0
+		});
+		radius = window.innerHeight*0.4;
+		center[0] = window.innerWidth*0.5;
+		center[1] = window.innerHeight*0.5;
+	}
+
+	// demo
+	data = [12, 19, 10, 2, 8, 9];
+	for (var i in data) {
+		total += data[i];
+		dn[i] = total;
+		isHover[i] = false;
+	}
+	drawChart();
+	// demo
+});
+// request.open('GET', '<?= $url; ?>');
+// request.onload = function() {
+// 	if (request.status >= 200 && request.status < 400) {
+// 		var _data = JSON.parse(request.responseText);
+// 		for (var i = 0; ; i++) {
+// 			if (_data.hasOwnProperty(i+1)) {
+// 				data[i] = _data[i+1];
+// 			} else {
+// 				break;
+// 			}
+// 		}
+// 		console.log(data);
+// 		if (data.length == 0) {
+// 			$('#text2').html('投票尚未開始');
+// 		} else {
+// 			for (var i in data) {
+// 				total += data[i];
+// 				dn[i] = total;
+// 				isHover[i] = false;
+// 			}
+// 			drawChart();
+// 		}
+// 	}
+// };
+// request.send();
+
+function drawChart() {
+	for (var i = 0; i < data.length; i++) {
+		dp = Math.PI*2*(data[i]/total);
+		// ctx.fillStyle = isHover[i] ? hoverColors[i] : colors[i];
+		ctx.fillStyle = isHover[i] ? 'hsla(' + 360/data.length*i + ', 100%, 60%, .9)' : 'hsla(' + 360/data.length*i + ', 100%, 60%, .6)';
+		ctx.beginPath();
+		ctx.moveTo(center[0],center[1]);
+		if (isHover[i]) { radius +=5; }
+		ctx.arc(center[0],center[1],radius,op,op+dp);
+		ctx.fill();
+		ctx.closePath();
+		// ctx.fillStyle = hoverColors[i];
+		ctx.fillStyle = 'hsla(' + 360/data.length*i + ', 75%, 45%, 1)';
+		ctx.textAlign = "center";
+		ctx.font = "36px Arial";
+		// ctx.fillText(labels[i],center[0]+Math.cos(op+dp/2)*(radius+80),center[1]+Math.sin(op+dp/2)*(radius+60)-20);
+		// ctx.fillText(Math.round(data[i]/total*1000)/10+'%',center[0]+Math.cos(op+dp/2)*(radius+80),center[1]+Math.sin(op+dp/2)*(radius+60)+20);
+		ctx.fillText(Math.round(data[i]/total*1000)/10+'%',center[0]+Math.cos(op+dp/2)*(radius+80),center[1]+Math.sin(op+dp/2)*(radius+40));
+		if (isHover[i]) { radius -=5; }
+		op += dp;
+		$('#text').append('<p><span style="background-color:hsla(' + 360/data.length*i + ', 100%, 60%, .6)"></span> ' + labels[i] + '：' + data[i] + '</p>');
+		$('#text2').html('Total：' + total);
+	}
+}
+function handleMouseMove(e) {
+	var offsetX = canvas.offsetLeft,
+		offsetY = canvas.offsetTop - $(window).scrollTop(),
+		mouseX = parseInt(e.clientX - offsetX),
+		mouseY = parseInt(e.clientY - offsetY),
+		dx = mouseX - center[0],
+		dy = mouseY - center[1],
+		deg;
+	if (dx * dx + dy * dy < radius*radius) {
+		if (dx > 0) {
+			if (dy > 0) {
+				deg = 90 + Math.atan2(dy, dx) * 180 / Math.PI;
+			} else {
+				deg = 90 - Math.atan2(-dy, dx) * 180 / Math.PI;
+			}
+		} else {
+			if (dy > 0) {
+				deg = 270 - Math.atan2(dy, -dx) * 180 / Math.PI;
+			} else {
+				deg = 270 + Math.atan2(-dy, -dx) * 180 / Math.PI;
+			}
+		}
+		deg = deg / 360;
+		op = -Math.PI/2;
+		for (var j = 0; j < data.length; j++) {isHover[j] = false;}
+		isHover[0] = true;
+		$('#text').html('');
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		drawChart();
+		for (var i = 0; i < data.length; i++) {
+			if (dn[i] / total > deg && dn[i-1] / total < deg) {
+				for (var j = 0; j < data.length; ++j) {isHover[j] = false;}
+				isHover[i] = true;
+				$('#text').html('');
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				drawChart();
+			}
+		}
+	} else {
+		for (var i = 0; i < data.length; i++) {
+			if (isHover[i]) {
+				op = -Math.PI/2;
+				$('#text').html('');
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				isHover[i] = false;
+				drawChart();
+			}
+		}
+	}
+}
+canvas.onmousemove = function (e) {
+	handleMouseMove(e);
+};
+</script>
+</body>
+</html>

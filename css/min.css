@@ -1,0 +1,333 @@
+ /* reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 2016.10.31 */
+
+@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+
+html,
+body {
+	height: 100%;
+	font-family: Arial, "微軟正黑體", "Microsoft JhengHei";
+}
+a,
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+img {
+	vertical-align: middle;
+	border: 0;
+}
+.clear {
+	clear: both;
+	/*height: 1px;*/
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background-color: #fff;
+}
+.block {
+	width: 96%;
+	margin: 10px 0;
+	padding: 70px 2%;
+	border-top: 1px solid #b8b2a9;
+	border-bottom: 1px solid #b8b2a9;
+}
+.block p {
+	text-align: center;
+	color: #fffced;
+	font: 30px/45px "Open Sans", "微軟正黑體", "Microsoft JhengHei";
+}
+.block p.sub_t {
+	margin-bottom: 50px;
+	color: #333;
+	font-size: 60px;
+	font-family: 'Shrikhand', cursive;
+}
+/* nav */
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(127, 126, 119, 0.8);
+	z-index: 8;
+}
+nav.active {
+	position: fixed;
+	height: 65px;
+}
+.menu {
+	float: right;
+	margin: 0 30px 0 0;
+	transition: margin 0.6s;
+}
+nav.active .menu {
+	margin: 7px 30px 8px 0;
+}
+.menu a {
+	display: inline-block;
+	height: 18px;
+	margin: 16px 0;
+	padding: 0 10px;
+	text-align: center;
+	color: #fffced;
+	font: 18px/18px "Open Sans", "微軟正黑體", "Microsoft JhengHei";
+}
+.menu a+a {
+	border-left: 1px solid #fff;
+}
+.menu a:hover {
+	color: #e5e2d5;
+}
+/* index */
+.index {
+	position: relative;
+	width: 100%;
+	background-color: #e5e2d5;
+	border-bottom: 1px solid #b8b2a9;
+	overflow: hidden;
+}
+.a1,
+.a2,
+.a3,
+.a4 {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.a1 {
+	top: 50px;
+	left: 0;
+	border-width: 150px 300px 0 0;
+	border-color: #7f7e77 transparent transparent transparent;
+}
+.a2 {
+	top: 50px;
+	right: 0;
+	border-width: 0 300px 150px 0;
+	border-color: transparent #7f7e77 transparent transparent;
+}
+.a3 {
+	right: 0;
+	bottom: 0;
+	border-width: 0 0 150px 300px;
+	border-color: transparent transparent #7f7e77 transparent;
+}
+.a4 {
+	left: 0;
+	bottom: 0;
+	border-width: 150px 0 0 300px;
+	border-color: transparent transparent transparent #7f7e77;
+}
+.title {
+	position: absolute;
+	left: 50%;
+	width: 335px;
+	height: 108px;
+	margin-top: 300px;
+	margin-left: -168px;
+	background: url(../images/title.png) no-repeat 0 0;
+}
+/* about */
+.skill,
+.contact {
+	background-color: #e5e2d5;
+}
+.about,
+.works {
+	background-color: #bfbdb2;
+}
+/* flipInX */
+@-webkit-keyframes flipInX {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		opacity: 0;
+	}
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+	}
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+	to {
+		-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+	}
+}
+@keyframes flipInX {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		opacity: 0;
+	}
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+	}
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+				transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+	to {
+		-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+	}
+}
+.flipInX {
+	opacity: 0;
+}
+.about.active .flipInX {
+	opacity: 1;
+	-webkit-animation-duration: 1s;
+			animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+	-webkit-backface-visibility: visible;
+			backface-visibility: visible;
+	-webkit-animation-name: flipInX;
+			animation-name: flipInX;
+}
+.about.active .f2 {
+	-webkit-animation-delay: 1s;
+			animation-delay: 1s;
+}
+.about.active .f3 {
+	-webkit-animation-delay: 2s;
+			animation-delay: 2s;
+}
+/* skill */
+.skill_content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.chart {
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+}
+.chart_bg {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	border: 20px solid #f0f0f0;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 100px;
+}
+.chart_text {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	width: 100%;
+}
+.chart_text p {
+	color: #666;
+	font: 20px Arial;
+}
+.chart_text p:nth-child(2) {
+	color: #666;
+	font: bold 40px 'Times New Roman';
+}
+svg {
+	position: absolute;
+}
+circle {
+	stroke-width: 20px;
+	fill: transparent;
+	-webkit-transform-origin: 100px 100px;
+			transform-origin: 100px 100px;
+	-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+	transition: stroke-dashoffset 1s;
+}
+.html circle {
+	stroke: hsla(0, 100%, 60%, .9);
+}
+.css circle {
+	stroke: hsla(45, 100%, 60%, .9);
+}
+.jq circle {
+	stroke: hsla(90, 100%, 60%, .9);
+}
+.js circle {
+	stroke: hsla(135, 100%, 60%, .9);
+}
+.ux circle {
+	stroke: hsla(180, 100%, 60%, .9);
+}
+.node circle {
+	stroke: hsla(225, 100%, 60%, .9);
+}
+.react circle {
+	stroke: hsla(270, 100%, 60%, .9);
+}
+.php circle {
+	stroke: hsla(315, 100%, 60%, .9);
+}

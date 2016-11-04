@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--[if lte IE 6]><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<title>jQuery.parallax</title>
+<style type="text/css">
+.parallax-viewport {
+	position: relative;
+	overflow: hidden;
+}
+.parallax-layer {
+	position: absolute;
+}
+.parallax-viewport {
+	width: 100%;
+	max-width: 900px;
+	height: 300px;
+	margin: 100px auto;
+	background-color: #a0d2e6;
+}
+</style>
+<!--[if lte IE 8]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="parallax-viewport" id="parallax">
+	<div class="parallax-layer" id="layer1">
+		<img src="images/4.png" style="position:absolute; top:-12px; left:300px;">
+	</div>
+	<div class="parallax-layer" id="layer2">
+		<img src="images/3.png" style="position:absolute; top:0; left:0;">
+	</div>
+	<div class="parallax-layer" id="layer3">
+		<img src="images/2.png" style="position:absolute; top:40px; left:0;">
+	</div>
+	<div class="parallax-layer" id="layer4">
+		<img src="images/1.png" style="position:absolute; top:96px; left:0;">
+	</div>
+</div>
+<script>
+var IE = document.all?true:false;
+if (!IE) document.captureEvents(Event.MOUSEMOVE);
+document.onmousemove = getMouseXY;
+var tempX = 0,
+	tempY = 0,
+	p = document.getElementById('parallax'),
+	pw = p.offsetWidth,
+	ph = p.offsetHeight,
+	xo = p.offsetLeft,
+	yo = p.offsetTop,
+	xpos,
+	ypos;
+function getMouseXY(e) {
+	if (IE) {
+		tempX = event.clientX + document.body.scrollLeft;
+		tempY = event.clientY + document.body.scrollTop;
+	} else {
+		tempX = e.pageX;
+		tempY = e.pageY;
+	};
+	if (tempX < 0) {tempX = 0};
+	if (tempY < 0) {tempY = 0};
+	document.Show.MouseX.value = tempX;
+	document.Show.MouseY.value = tempY;
+	xpos = (tempX-xo)/pw;
+	ypos = (tempY-yo)/ph;
+	if (xpos < 0) {xpos = 0};
+	if (ypos < 0) {ypos = 0};
+	if (xpos > 1) {xpos = 1};
+	if (ypos > 1) {ypos = 1};
+	document.getElementById('layer1').style.top = ypos*10 + "px";
+	document.getElementById('layer1').style.left = -xpos*10 + "px";
+	document.getElementById('layer2').style.top = ypos*15 + "px";
+	document.getElementById('layer2').style.left = -xpos*20 + "px";
+	document.getElementById('layer3').style.top = -ypos*10 + "px";
+	document.getElementById('layer3').style.left = -xpos*200 + "px";
+	document.getElementById('layer4').style.top = -ypos*30 + "px";
+	document.getElementById('layer4').style.left = -xpos*460 + "px";
+	return true;
+}
+</script>
+
+<form name="Show">
+<p align="center"><input type="text" name="MouseX" value="0" size="4">X <input type="text" name="MouseY" value="0" size="4">Y </form>
+
+</body>
+</html>
