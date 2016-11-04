@@ -68,6 +68,7 @@ img {
 	width: 100%;
 	min-height: 100%;
 	background-color: #fff;
+	overflow-x: hidden;
 }
 .block {
 	width: 96%;
@@ -79,13 +80,24 @@ img {
 .block p {
 	text-align: center;
 	color: #fffced;
-	font: 30px/45px "Open Sans", "微軟正黑體", "Microsoft JhengHei";
+	font: 30px/45px sans-serif;
 }
 .block p.sub_t {
 	margin-bottom: 50px;
 	color: #333;
 	font-size: 60px;
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Shrikhand';
+}
+.block .btl {
+	text-align: center;
+}
+.block .btl p {
+	display: inline-block;
+	text-align: left;
+}
+.block .btl p span {
+	margin-left: 7.5px;
+	letter-spacing: 7.5px;
 }
 /* nav */
 nav {
@@ -330,4 +342,35 @@ circle {
 }
 .php circle {
 	stroke: hsla(315, 100%, 60%, .9);
+}
+/* contact */
+.contact.block {
+	margin: 10px 0 0;
+}
+.contact.block p {
+	color: #666;
+}
+.block p.sub_t {
+	color: #333;
+}
+.contact.block p a {
+	color: #666;
+}
+.contact.block p a:hover {
+	color: #333;
+}
+/* footer */
+footer {
+	padding: 10px 0;
+	line-height: 27px;
+	text-align: center;
+	background-color: #333;
+	color: #eee;
+	font-size: 18px;
+}
+footer a {
+	color: #eee;
+}
+footer a:hover {
+	color: #ccc;
 }
