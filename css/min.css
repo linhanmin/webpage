@@ -135,6 +135,15 @@ nav.active .menu {
 .menu a:hover {
 	color: #e5e2d5;
 }
+.st {
+	display: none;
+}
+.st a {
+	border-right: 1px solid #fff;
+}
+nav.active .st {
+	display: inline-block;
+}
 /* index */
 .index {
 	position: relative;
@@ -312,12 +321,17 @@ svg {
 }
 circle {
 	stroke-width: 20px;
+	stroke-dasharray: 565 565;
+	stroke-dashoffset: 565;
 	fill: transparent;
 	-webkit-transform-origin: 100px 100px;
 			transform-origin: 100px 100px;
-	-webkit-transform: rotate(90deg);
-			transform: rotate(90deg);
-	transition: stroke-dashoffset 1s;
+	-webkit-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+	-webkit-transition: stroke-dashoffset 2s;
+			transition: stroke-dashoffset 2s;
+	-webkit-transition-timing-function: cubic-bezier(0.1,0.4,0.6,1);
+			transition-timing-function: cubic-bezier(0.1,0.4,0.6,1);
 }
 .html circle {
 	stroke: hsla(0, 100%, 60%, .9);
@@ -342,6 +356,28 @@ circle {
 }
 .php circle {
 	stroke: hsla(315, 100%, 60%, .9);
+}
+.skill.active .html circle {
+	stroke-dashoffset: 11;
+}
+.skill.active .css circle {
+	stroke-dashoffset: 28;
+}
+.skill.active .jq circle {
+	stroke-dashoffset: 57;
+}
+.skill.active .js circle,
+.skill.active .ux circle {
+	stroke-dashoffset: 226;
+}
+.skill.active .node circle {
+	stroke-dashoffset: 339;
+}
+.skill.active .react circle {
+	stroke-dashoffset: 452;
+}
+.skill.active .php circle {
+	stroke-dashoffset: 509;
 }
 /* contact */
 .contact.block {

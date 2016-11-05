@@ -8,8 +8,10 @@ $(window).scroll(function() {
 	//index
 	if ($(window).scrollTop() <= $(window).height()) {
 		am = $(window).scrollTop() / $(window).height();
+		$('nav').removeClass('active');
 	} else {
 		am = 0;
+		$('nav').addClass('active');
 	}
 	$('.a1, .a4').css({
 		'left': -am*300 + 'px'
@@ -29,6 +31,13 @@ $(window).scroll(function() {
 	}
 	if ($(window).scrollTop() < 100) {
 		$('.about').removeClass('active');
+	}
+	//skill
+	if ($(window).scrollTop() > $('.skill').offset().top - 100) {
+		$('.skill').addClass('active');
+	}
+	if ($(window).scrollTop() < 100) {
+		$('.skill').removeClass('active');
 	}
 });
 
