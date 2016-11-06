@@ -9,9 +9,9 @@ function indexResize() {
 	var wh = $(window).height(),
 		am;
 	$('.index').height(wh);
-	$('.title').css({
-		'margin-top': (wh - $('.title').height()) / 2 + 'px'
-	});
+	// $('.title').css({
+	// 	'margin-top': (wh - $('.title').height()) / 2 + 'px'
+	// });
 	if ($(window).scrollTop() <= $(window).height()) {
 		am = $(window).scrollTop() / $(window).height();
 		$('nav').removeClass('active');

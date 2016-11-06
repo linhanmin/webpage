@@ -186,7 +186,7 @@ nav.active .st {
 	height: 108px;
 	margin: 300px auto 0;
 	background: url(../images/title.png) no-repeat 0 0;
-	background-size: cover;
+	background-size: contain;
 }
 /* about */
 .skill,
@@ -407,6 +407,7 @@ circle {
 }
 .contact.block p {
 	color: #666;
+	word-break: break-all;
 }
 .block p.sub_t {
 	color: #333;
