@@ -106,19 +106,14 @@ nav {
 	width: 100%;
 	height: 50px;
 	background-color: rgba(127, 126, 119, 0.8);
-	z-index: 8;
+	z-index: 9;
 }
 nav.active {
 	position: fixed;
-	height: 65px;
 }
 .menu {
 	float: right;
 	margin: 0 30px 0 0;
-	transition: margin 0.6s;
-}
-nav.active .menu {
-	margin: 7px 30px 8px 0;
 }
 .menu a {
 	display: inline-block;
@@ -186,13 +181,12 @@ nav.active .st {
 	border-color: transparent transparent transparent #7f7e77;
 }
 .title {
-	position: absolute;
-	left: 50%;
 	width: 335px;
+	max-width: 100%;
 	height: 108px;
-	margin-top: 300px;
-	margin-left: -168px;
+	margin: 300px auto 0;
 	background: url(../images/title.png) no-repeat 0 0;
+	background-size: cover;
 }
 /* about */
 .skill,
@@ -283,6 +277,11 @@ nav.active .st {
 			animation-delay: 2s;
 }
 /* skill */
+.block.skill,
+.block.works {
+	width: 100%;
+	padding: 70px 0;
+}
 .skill_content {
 	width: 1000px;
 	margin: 0 auto;
@@ -379,6 +378,29 @@ circle {
 .skill.active .php circle {
 	stroke-dashoffset: 509;
 }
+/* works */
+.work_content {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.work_content .w1 {
+	float: left;
+	width: 280px;
+	height: 270px;
+	margin: 20px;
+	overflow: hidden;
+}
+.work_content .w2,
+.work_content img {
+	width: 100%;
+}
+.work_content figcaption {
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	color: #fafafa;
+}
 /* contact */
 .contact.block {
 	margin: 10px 0 0;
@@ -409,4 +431,47 @@ footer a {
 }
 footer a:hover {
 	color: #ccc;
+}
+@media screen and (max-width: 1300px) {
+	.work_content {
+		width: 960px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.skill_content {
+		width: 750px;
+	}
+}
+@media screen and (max-width: 980px) {
+	.work_content {
+		width: 640px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.skill_content {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 660px) {
+	.work_content {
+		width: 320px;
+	}
+}
+@media screen and (max-width: 520px) {
+	.a1,
+	.a2,
+	.a3,
+	.a4 {
+		display: none;
+	}
+	.skill_content {
+		width: 250px;
+	}
+	.menu {
+		margin: 0 10px 0 0;
+	}
+	.menu a {
+		padding: 0 5px;
+		font: 14px/18px "Open Sans", "微軟正黑體", "Microsoft JhengHei";
+	}
 }

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	color: #000;
+	font-size: 16px;
+}
+#login form label {
+	font-size: 16px;
+}
+#showpw {
+	color: #000;
+}
+#login_bg {
+	*left: 0;
+}
+#data_top {
+	width: 92%;
+	color: #000;
+	font-size: 16px;
+	line-height: 24px;
+}
+#data_skip {
+	*width: 70%;
+}
+#skip p {
+	color: #000;
+	font-size: 16px;
+	line-height: 24px;
+}
+#data_content table tbody tr td label, #data_content table tbody tr td span {
+	color: #000;
+	font-size: 16px;
+}
+#data_content table tbody tr td label span {
+	color: #b20000;
+	font-size: 14px;
+}
+#accept ul li {
+	color: #000;
+	font-size: 16px;
+}
+.c4_title_item, .c4_test_item {
+	color: #000;
+	font-size: 16px;
+}
+div.select_float, span.date_text {
+	*top: -15px;
+}
+div.select_float2 {
+	*top: -35px;
+}
+div.select_float3 {
+	*top: -18px;
+}
+p.title {
+	*width: 290px;
+}
+.select_float2 span.sleBox {
+	*position: relative;
+	*top: 40px;
+	*left: -47px;
+}
+span.sleNew2 {
+	*position: relative;
+	*left: 50px;
+	*border: none;
+}

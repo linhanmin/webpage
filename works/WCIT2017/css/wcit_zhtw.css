@@ -1,0 +1,34 @@
+header a {
+	width: 65px;
+}
+.link_btn a {
+	font-size: 22px;
+}
+@media screen and (max-width: 1275px) {
+	.menu a {
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 880px) and (min-width: 800px) {
+	nav.active .logo {
+		width: 105px;
+		margin: 10px 0 0 10px;
+	}
+	.menu a {
+		font: 16px/25px "Open Sans", "微軟正黑體", "Microsoft JhengHei";
+	}
+}
+@media screen and (max-width: 540px) {
+	.link_btn a {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 440px) {
+	header a {
+		width: auto;
+		margin: 0 5px;
+	}
+	header .share a {
+		margin: 0 2px;
+	}
+}

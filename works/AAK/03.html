@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>歡迎來到人格特質線上評量檢測系統</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/pc.css">
+<!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/lt_ie8.css">
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script type="text/javascript">
+//alert(navigator.userAgent);
+function IsPC() {
+  var userAgentInfo = navigator.userAgent;
+  var Agents = new Array("Mobile");
+  var flag = true;
+  for (var v = 0; v < Agents.length; v++) {
+    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+  }
+  return flag;
+};
+
+var x = IsPC();
+if (x === false) {
+  document.write('<link rel="stylesheet" type="text/css" href="css/mobile.css">');
+};
+
+$(function() {
+  $(".vendor").fitVids();
+});
+
+</script>
+</head>
+
+<body>
+<div id="header">
+  <div id="header_content">
+    <div id="header_content_l"><span class="green_20px">歡迎來到</sapn>&nbsp;<span class="white_20px_5px">人格特質線上評量系統</span></div>
+    <div id="header_content_r"><span class="green_15px">日月知識股份有限公司</span></div>
+  </div>
+</div>
+<div id="header_m"></div>
+<div id="content_bg"></div>
+<div id="content">
+  <div id="banner1" class="banner"><img src="images/banner.png"></div>
+  <div id="banner2" class="banner"><img src="images/banner_m.png"></div>
+  <div id="site1" class="site"><img src="images/step3.png"></div>
+  <div id="site2" class="site"><img src="images/step3_m.png"></div>
+  <div id="main">
+    <div id="main_title"><span></span><p>情境引導</p></div>
+    <div id="data_skip">
+      <div id="skip">
+        <p>若您在進行情境引導時，等候時間過久，可以略過引導動畫，直接進行評量！</p>
+        <input type="image" onclick="javascript:location.href='#'" src="images/btn_skip.png" onmouseover="this.src='images/btn_skip2.png'" onmouseout="this.src='images/btn_skip.png'" alt="略過引導">
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="data_content2">
+      <div class="vendor">
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/pl4q8KU16oI" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div id="btn">
+        <a href="04.html"><input type="image" onclick="javascript:location.href='#'" src="images/btn_next.png" onmouseover="this.src='images/btn_next2.png'" onmouseout="this.src='images/btn_next.png'" alt="下一步"></a>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer1" class="footer">
+    日月知識股份有限公司版權所有 &copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+  <div id="footer2" class="footer">
+    日月知識股份有限公司版權所有<br>&copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+</div><!-- content -->
+</body>
+</html>

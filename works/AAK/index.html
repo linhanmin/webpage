@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>歡迎來到人格特質線上評量檢測系統</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/pc.css">
+<!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/lt_ie8.css">
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+//alert(navigator.userAgent);
+function IsPC() {
+  var userAgentInfo = navigator.userAgent;
+  var Agents = new Array("Mobile");
+  var flag = true;
+  for (var v = 0; v < Agents.length; v++) {
+    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+  }
+  return flag;
+}
+
+var x = IsPC();
+if (x === false) {
+  document.write('<link rel="stylesheet" type="text/css" href="css/mobile.css">');
+};
+
+$(function() {
+  var $password = $('#login form input:password'), 
+      $passwordInput = $('<input type="text" id="' + $password.attr('id') + '" name="' + $password.attr('name') + '" class="' + $password.attr('className') + '" />');
+  $('#show_password').click(function(){
+    if(this.checked){
+      $password.replaceWith($passwordInput.val($password.val()));
+    }else{
+      $passwordInput.replaceWith($password.val($passwordInput.val()));
+    }
+  });
+});
+
+</script>
+</head>
+
+<body>
+<div id="header">
+  <div id="header_content">
+    <div id="header_content_l"><span class="green_20px">歡迎來到</sapn>&nbsp;<span class="white_20px_5px">人格特質線上評量系統</span></div>
+    <div id="header_content_r"><span class="green_15px">日月知識股份有限公司</span></div>
+  </div>
+</div>
+<div id="header_m"></div>
+<div id="content_bg"></div>
+<div id="content">
+  <div id="banner1" class="banner"><img src="images/banner.png"></div>
+  <div id="banner2" class="banner"><img src="images/banner_m.png"></div>
+  <div id="site1" class="site"><img src="images/step1.png"></div>
+  <div id="site2" class="site"><img src="images/step1_m.png"></div>
+  <div id="main">
+    <div id="main_title"><span></span><p>會員登入</p></div>
+    <div id="login_top">若您已完成付費手續，請直接登入帳號進行測驗。<br>若未購買者請至 <a href="#">立即購買</a></div>
+    <div id="login_bg"></div>
+    <div id="login">
+      <form>
+        <label for="1">帳號</label><input type="text" id="1"><br>
+        <label for="2">密碼</label><input type="password" id="2"><br>
+        <div id="showpw"><input type="checkbox" id="show_password">顯示密碼</div><br>
+        <input type="image" src="images/btn_login.png" onmouseover="this.src='images/btn_login2.png'" onmouseout="this.src='images/btn_login.png'" alt="登入測驗">
+      </form>
+    </div>
+    <div id="login_bottom">如遇問題，請於 上班時間 9:00am ~ 6:00pm 撥打：<br><b>(04)2255-9158</b><br>我們將由專人為您服務，謝謝。</div>
+    <div id="login_bottom_m">如遇問題，請於<br>上班時間 9:00am ~ 6:00pm 撥打：<br><b>(04)2255-9158</b><br>我們將由專人為您服務，謝謝。</div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer1" class="footer">
+    日月知識股份有限公司版權所有 &copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+  <div id="footer2" class="footer">
+    日月知識股份有限公司版權所有<br>&copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+</div><!-- content -->
+</body>
+</html>

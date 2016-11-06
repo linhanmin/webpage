@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>森森購物網行動版</title>
+<link rel="stylesheet" type="text/css" href="http://www.u-mall.com.tw/CSS/mobile/common.css?version=20150316">
+<script type="text/javascript" src="http://www.u-mall.com.tw/Includes/mobile/New/jquery-1.10.2.min.js?version=20150316"></script>
+<script type="text/javascript" src="http://www.u-mall.com.tw/Includes/mobile/iscroll-lite.js?version=20150316"></script>
+<script type="text/javascript" src="js/umallmobile.js"></script>
+</head>
+<body>
+<div class="page">
+	<div class="main">
+		<div class="headerZone">
+			<div class="header t_center f_20 f_w">
+				<a href="index.html" target="_self">森森購物網</a>
+				<div class="header_btn_left"></div>
+				<div class="header_btn_right"></div>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div class="mainWrap">
+				<div style="height:10px;"></div>
+				<div class="main_search">
+					<input type="text" name="" class="search_bar" maxlength="96" placeholder="請輸入關鍵字">
+					<div class="search_input f_15"><a href="#">搜尋</a></div>
+				</div>
+				<div class="mainWrap_c">
+					<div class="index_banner">
+						<div id="mySwipe" class="swipe">
+							<div class="swipe-wrap">
+								<div><a href="#"><img src="img/800x300.jpg"/></a></div>
+								<div><a href="#"><img src="img/800x300(2).jpg"/></a></div>
+								<div><a href="#"><img src="img/800x300(3).jpg"/></a></div>
+								<div><a href="#"><img src="img/800x300(4).jpg"/></a></div>
+								<div><a href="#"><img src="img/800x300(5).jpg"/></a></div>
+							</div>
+						</div>
+					</div><!--End index_banner-->
+					<div class="index_banner_list">
+						<ul id="position" class="position">
+						</ul>
+					</div><!--End index_banner_list-->
+					<div>
+						<ul id="position_control2" style="visibility:hidden;">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ul>
+					</div>
+
+<!-- 20150313新增 -->
+					<div class="mtvlive">
+						<div class="mtvlive_title"><span class="mtvlive_icon"></span>LIVE商品 現折100</div>
+						<div class="mtvlive_tag">
+							<div class="active">CH46</div>
+							<div>CH60</div>
+							<div>CH80</div>
+						</div>
+						<div class="mtvlive_content">
+							<div class="mtvlive_arrow_left"><img src="images/arrow_left.png"></div>
+							<div class="mtvlive_product">
+								<div class="mtvlive_product_scroll">
+									<div class="ch46">
+										<div class="live_title live1"><span class="hor"></span><span class="min"></span><span class="sec"></span></div>
+										<div class="live_pro"><a href="#"><div class="live_icon"></div><img src="images/pro.jpg"></a></div>
+										<div class="live_text"><a href="#">1STEMCIN女王魅力嫩唇假字假字假字假字假字假字假字</a></div>
+										<div class="live_price"><a href="#">$<span>1,090</span></a></div>
+										<div class="live_btn"><a href="#">立即購買</a></div>
+									</div>
+									<div class="ch60">
+										<div class="live_title live2"><span class="hor"></span><span class="min"></span><span class="sec"></span></div>
+										<div class="live_pro"><a href="#"><div class="live_icon"></div><img src="images/pro.jpg"></a></div>
+										<div class="live_text"><a href="#">2STEMCIN女王魅力嫩唇假字假字假字假字假字假字假字</a></div>
+										<div class="live_price"><a href="#">$<span>1,090</span></a></div>
+										<div class="live_btn"><a href="#">立即購買</a></div>
+									</div>
+									<div class="ch60">
+										<div class="live_title live3"><span class="hor"></span><span class="min"></span><span class="sec"></span></div>
+										<div class="live_pro"><a href="#"><div class="live_icon"></div><img src="images/pro.jpg"></a></div>
+										<div class="live_text"><a href="#">3STEMCIN女王魅力嫩唇假字假字假字假字假字假字假字</a></div>
+										<div class="live_price"><a href="#">$<span>1,090</span></a></div>
+										<div class="live_btn"><a href="#">立即購買</a></div>
+									</div>
+									<div class="ch80">
+										<div class="live_title live4"><span class="hor"></span><span class="min"></span><span class="sec"></span></div>
+										<div class="live_pro"><a href="#"><div class="live_icon"></div><img src="images/pro.jpg"></a></div>
+										<div class="live_text"><a href="#">4STEMCIN女王魅力嫩唇假字假字假字假字假字假字假字</a></div>
+										<div class="live_price"><a href="#">$<span>1,090</span></a></div>
+										<div class="live_btn"><a href="#">立即購買</a></div>
+									</div>
+									<div class="ch80">
+										<div class="live_title live5"><span class="hor"></span><span class="min"></span><span class="sec"></span></div>
+										<div class="live_pro"><a href="#"><div class="live_icon"></div><img src="images/pro.jpg"></a></div>
+										<div class="live_text"><a href="#">5STEMCIN女王魅力嫩唇假字假字假字假字假字假字假字</a></div>
+										<div class="live_price"><a href="#">$<span>1,090</span></a></div>
+										<div class="live_btn"><a href="#">立即購買</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="mtvlive_arrow_right"><img src="images/arrow_right.png"></div>
+						</div>
+					</div>
+<style>
+.mtvlive {
+	width: 100%;
+	height: 398px;
+	background-color: #efefef;
+	overflow: hidden;
+}
+.mtvlive_title {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ddd;
+	font-weight: bold;
+	text-indent: 40px;
+}
+.mtvlive_icon {
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	left: 8px;
+	width: 23px;
+	height: 27px;
+	background: url(images/tvlive_icon.png) no-repeat 0 0;
+}
+.mtvlive_tag {
+	height: 30px;
+}
+.mtvlive_tag>div {
+	float: left;
+	width: 33%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #959595;
+	text-align: center;
+}
+.mtvlive_tag>div:nth-child(2) {
+	width: 34%;
+}
+.mtvlive_tag .active {
+	background-color: #efefef;
+}
+.mtvlive_content {
+	position: relative;
+	width: 320px;
+	height: 338px;
+	margin: 0 auto;
+}
+.mtvlive_arrow_left {
+	position: absolute;
+	top: 149px;
+	left: 4px;
+	width: 16px;
+	height: 26px;
+	cursor: pointer;
+}
+.mtvlive_arrow_right {
+	position: absolute;
+	top: 149px;
+	right: 4px;
+	width: 16px;
+	height: 26px;
+	cursor: pointer;
+}
+.mtvlive_arrow_left img, .mtvlive_arrow_right img, .live_pro img  {
+	display: block;
+	width: 100%;
+}
+.mtvlive_product {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	width: 258px;
+	height: 316px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+.mtvlive_product_scroll {
+	position: relative;
+	top: 0;
+	left: -258px;
+	width: 6000px;
+}
+.mtvlive_product_scroll>div {
+	float: left;
+	position: relative;
+	width: 258px;
+	height: 316px;
+}
+.live_title {
+	position: absolute;
+	top: 10px;
+	left: 11px;
+	width: 232px;
+	height: 30px;
+	background: url(images/live_title.png) no-repeat 0 0;
+}
+.live_pro {
+	position: absolute;
+	top: 49px;
+	left: 39px;
+	width: 180px;
+	height: 180px;
+}
+.live_icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 42px;
+	height: 42px;
+	background: url(images/live_icon.png) no-repeat 0 0;
+}
+.live_text {
+	position: absolute;
+	top: 232px;
+	left: 9px;
+	width: 240px;
+	line-height: 125%;
+}
+.live_price {
+	position: absolute;
+	top: 280px;
+	left: 10px;
+}
+.live_price a {
+	color: #f01400;
+	font-weight: bold;
+}
+.live_price span {
+	font-size: 24px;
+}
+.live_btn {
+	position: absolute;
+	top: 280px;
+	left: 139px;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f01400;
+	letter-spacing: 3px;
+	border-radius: 3px;
+}
+.live_btn a {
+	display: block;
+	color: #fff;
+}
+.hor, .min, .sec {
+	position: absolute;
+	top: 0;
+	color: #fff;
+	font-size: 22px;
+}
+.hor {
+	left: 120px;
+}
+.min {
+	left: 162px;
+}
+.sec {
+	left: 204px;
+}
+@media screen and (min-width: 511px) and (max-width: 560px) {
+	.mtvlive {
+		height: 280px;
+	}
+	.mtvlive_content {
+		width: 511px;
+		height: 220px;
+	}
+	.mtvlive_arrow_left, .mtvlive_arrow_right {
+		top: 97px;
+	}
+	.mtvlive_product {
+		width: 449px;
+		height: 198px;
+	}
+	.mtvlive_product_scroll>div {
+		width: 449px;
+		height: 198px;
+	}
+	.live_title {
+		left: 202px;
+	}
+	.live_pro {
+		top: 9px;
+		left: 9px;
+	}
+	.live_text {
+		top: 75px;
+		left: 200px;
+		line-height: 150%;
+	}
+	.live_price {
+		top: 158px;
+		left: 201px;
+	}
+	.live_btn {
+		top: 158px;
+		left: 330px;
+	}
+}
+@media screen and (min-width: 561px) {
+	.mtvlive {
+		height: 330px;
+	}
+	.mtvlive_content {
+		width: 561px;
+		height: 270px;
+	}
+	.mtvlive_arrow_left, .mtvlive_arrow_right {
+		top: 122px;
+	}
+	.mtvlive_product {
+		width: 499px;
+		height: 248px;
+	}
+	.mtvlive_product_scroll>div {
+		width: 499px;
+		height: 248px;
+	}
+	.live_title {
+		top: 20px;
+		left: 252px;
+	}
+	.live_pro {
+		top: 9px;
+		left: 9px;
+		width: 230px;
+		height: 230px;
+	}
+	.live_text {
+		top: 100px;
+		left: 250px;
+		line-height: 150%;
+	}
+	.live_price {
+		top: 198px;
+		left: 251px;
+	}
+	.live_btn {
+		top: 198px;
+		left: 380px;
+	}
+}
+@media screen and (min-width: 651px) {
+	.mtvlive_content {
+		width: 651px;
+	}
+	.mtvlive_product {
+		left: 75px;
+	}
+	.mtvlive_arrow_left {
+		top: 129px;
+		left: 10px;
+		width: 40px;
+		height: 65px;
+	}
+	.mtvlive_arrow_right {
+		top: 102px;
+		right: 10px;
+		width: 40px;
+		height: 65px;
+	}
+}
+</style>
+<script>
+$(function(){
+	//live倒數計時
+	var startTime = new Date(),
+		endTime1 = new Date(2015, 2, 20, 00, 00, 00), //年,月(0~11;0為1月),日(1~31),時,分,秒
+		endTime2 = new Date(2015, 2, 21, 00, 30, 00),
+		endTime3 = new Date(2015, 2, 22, 00, 00, 30),
+		endTime4 = new Date(2015, 2, 23, 00, 30, 00),
+		endTime5 = new Date(2014, 2, 24, 00, 00, 30),
+		spanTime1 = (endTime1.getTime() - startTime.getTime()) / 1000,
+		spanTime2 = (endTime2.getTime() - startTime.getTime()) / 1000,
+		spanTime3 = (endTime3.getTime() - startTime.getTime()) / 1000,
+		spanTime4 = (endTime4.getTime() - startTime.getTime()) / 1000,
+		spanTime5 = (endTime5.getTime() - startTime.getTime()) / 1000;
+	function clock(name,spanTime) {
+		var h = Math.floor(spanTime / 3600),
+			m = Math.floor(spanTime % 3600 / 60),
+			s = Math.floor(spanTime % 60);
+		if (h<10) {h = '0'+h};
+		if (m<10) {m = '0'+m};
+		if (s<10) {s = '0'+s};
+		if (spanTime > 0) {
+			$(".live"+name).find('.hor').text(h);
+			$(".live"+name).find('.min').text(m);
+			$(".live"+name).find('.sec').text(s);
+		} else {
+			$(".live"+name).find('.hor').text('00');
+			$(".live"+name).find('.min').text('00');
+			$(".live"+name).find('.sec').text('00');
+		};
+		if (h>99) {$(".live"+name).find('.hor').css('font-size','15px')};
+	}
+	setInterval(function(){
+		spanTime1--; clock(1,spanTime1);
+		spanTime2--; clock(2,spanTime2);
+		spanTime3--; clock(3,spanTime3);
+		spanTime4--; clock(4,spanTime4);
+		spanTime5--; clock(5,spanTime5);
+	}, 1000);
+
+	//live sides
+	var live_n = $('.mtvlive_product_scroll>div').length,
+		live_o = 1,
+		ww = $(window).width(),
+		ll;
+	$('.mtvlive_product_scroll>div').last().clone().prependTo('.mtvlive_product_scroll');
+	$('.mtvlive_product_scroll>div').eq(1).clone().appendTo('.mtvlive_product_scroll');
+	function changeTag(o) {
+		switch($('.mtvlive_product_scroll>div').eq(o).attr('class')) {
+			case "ch46":
+				$('.mtvlive_tag>div').eq(0).addClass('active').siblings().removeClass('active');
+				break;
+			case "ch60":
+				$('.mtvlive_tag>div').eq(1).addClass('active').siblings().removeClass('active');
+				break;
+			case "ch80":
+				$('.mtvlive_tag>div').eq(2).addClass('active').siblings().removeClass('active');
+				break;
+		}
+	}
+	$('.mtvlive_arrow_left').click(function(){
+		live_o--;
+		ww = $(window).width();
+		if (ww>=561) {
+			ll = 499;
+		} else if (ww>=511&&ww<561) {
+			ll = 449;
+		} else {
+			ll = 258;
+		}
+		$('.mtvlive_product_scroll').stop().animate({
+			left:-ll*live_o
+		},600,function(){
+			if (parseInt($(this).css('left'))>=0) {
+				live_o = live_n;
+				changeTag(live_o);
+				$(this).css('left',-ll*live_n);
+			} else {
+				changeTag(live_o);
+			}
+		});
+	});
+	$('.mtvlive_arrow_right').click(function(){
+		live_o++;
+		ww = $(window).width();
+		if (ww>=561) {
+			ll = 499;
+		} else if (ww>=511&&ww<561) {
+			ll = 449;
+		} else {
+			ll = 258;
+		}
+		$('.mtvlive_product_scroll').stop().animate({
+			left:-ll*live_o
+		},600,function(){
+			if (parseInt($(this).css('left'))<-ll*live_n) {
+				live_o = 1;
+				changeTag(live_o);
+				$(this).css('left',-ll);
+			} else {
+				changeTag(live_o);
+			}
+		});
+	});
+
+	//add wipe
+	$.fn.mousewipe = function (settings) {
+		var config = {
+			min_move_x: 20,
+			wipeLeft: function(){ },
+			wipeRight: function(){ }
+		};
+		if (settings) $.extend(config, settings);
+		this.each(function(){
+			var startX,
+				startY,
+				isMoving = false;
+			function cancelMouse() {
+				this.removeEventListener('mouseup', onMouseMove);
+				startX = null;
+				isMoving = false;
+			}
+			function onMouseMove(e) {
+				e.preventDefault();
+				if (isMoving) {
+					var x = e.pageX
+					var y = e.pageY;
+					var dx = startX - x;
+					var dy = startY - y;
+					if (Math.abs(dx) >= config.min_move_x) {
+						cancelMouse();
+						if (dx > 0) {
+							config.wipeLeft();
+						} else {
+							config.wipeRight();
+						}
+					}
+				}
+			}
+			function onMouseStart(e) {
+				startX = e.pageX;
+				startY = e.pageY;
+				isMoving = true;
+				this.addEventListener('mouseup', onMouseMove, false);
+			}
+			this.addEventListener('mousedown', onMouseStart, false);
+		});
+		return this;
+	};
+	$(".mtvlive").mousewipe({
+		wipeLeft: function(){ $(".mtvlive_arrow_right").click(); },
+		wipeRight: function(){ $(".mtvlive_arrow_left").click(); }
+	});
+	$(".mtvlive").touchwipe({
+		wipeLeft: function(){ $(".mtvlive_arrow_right").click(); },
+		wipeRight: function(){ $(".mtvlive_arrow_left").click(); }
+	});
+
+	//when resize
+	var bw;
+	if (ww>=561) {
+		bw = 499;
+		$('.mtvlive_product_scroll').css('left',-499);
+	} else if (ww>=511&&ww<561) {
+		bw = 449;
+		$('.mtvlive_product_scroll').css('left',-449);
+	} else {
+		bw = 258;
+		$('.mtvlive_product_scroll').css('left',-258);
+	}
+	$(window).resize(function(){
+		var x = parseInt($('.mtvlive_product_scroll').css('left'));
+		ww = $(window).width();
+		if (ww>=561&&bw!=499) {
+			$('.mtvlive_product_scroll').css('left',x/bw*499);
+			bw = 499;
+		} else if (ww>=511&&ww<561&&bw!=449) {
+			$('.mtvlive_product_scroll').css('left',x/bw*449);
+			bw = 449;
+		} else if (ww<511&&bw!=258) {
+			$('.mtvlive_product_scroll').css('left',x/bw*258);
+			bw = 258;
+		};
+	});
+});
+</script>
+<!-- 20150313新增 End -->
+
+					<ul class="block_menu">
+						<li><a class="tvshop" href="#"><span></span>電視熱銷</a></li>
+						<li><a class="netShop" href="#"><span></span>網路熱銷</a></li>
+						<li><a class="bonusZone" href="#"><span></span>折價券專區</a></li>
+						<li><a class="memberZone" href="#"><span></span>活動專區</a></li>
+					</ul><!--End block_menu-->
+					<div class="blockLists">
+						<ul>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_04F">
+										<div class="classify_title c_2_36F f_w">
+											<a href="#">3C專賣</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_1"></div>
+												<span class="bfocus"><a href="#">季節家電</a></span>
+												<span><a href="#">NIKON</a></span>
+												<span><a href="#">智慧手機</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">LG Pocket photo 隨身口袋相印機- PD233(粉)</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">《下殺》四核心雙卡雙待 ASUS PadFone mini 4.3 +平板基座</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_E2F">
+										<div class="classify_title c_2_E6F f_w">
+											<a href="#">美妝保養</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_2"></div>
+												<span><a href="#">身體保養</a></span>
+												<span><a href="#">DR.WU</a></span>
+												<span><a href="#">般井生醫</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">T_T_T_T_T_T_T_T_T_T_T_T_T_T_T_T_T_T_T</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">我要當最長的品名啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_742">
+										<div class="classify_title c_2_864 f_w">
+											<a href="#">流行精品</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_3"></div>
+												<span><a href="#">COACH</a></span>
+												<span><a href="#">珠寶/玉石</a></span>
+												<span><a href="#">專櫃飾品</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">帕瑪氏全效夜間抗老精華露30mlx2瓶</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">MILDSKIN 金鑽肌因胜太抗老保養(四件組)</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_F33">
+										<div class="classify_title c_2_F66 f_w">
+											<a href="#">服飾鞋包</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_4"></div>
+												<span><a href="#">流行女裝</a></span>
+												<span><a href="#">專櫃內衣</a></span>
+												<span><a href="#">超值任選</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">詩丹雅蘭ALL IN ONE 全效修護精華x6瓶</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">【船井】醫卡 酸痛按摩舒感強效獨家組</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_690">
+										<div class="classify_title c_2_8B0 f_w">
+											<a href="#">旅遊美食</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_5"></div>
+												<span><a href="#">東北亞</a></span>
+												<span><a href="#">自由行</a></span>
+												<span><a href="#">大陸/港澳</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">【船井】burner倍熱 超孅飲6瓶加碼送食事對策</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">【買新鮮↘49折】開工大吉六六大順組 (鮑魚X6粒+挪威鯖魚X5)</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_F70">
+										<div class="classify_title c_2_F90 f_w">
+											<a href="#">生活居家</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_6"></div>
+												<span><a href="#">生活百貨</a></span>
+												<span><a href="#">推薦品牌</a></span>
+												<span><a href="#">衛廚收納</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">[洛克馬企業] 5mins Shaper 全方位提臀健腹機 預購商品 2/21日依訂單出貨</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">美國ROWANA帝國旅行者行李箱紐約限定版(28吋+20吋)</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="classify c_5_web">
+										<div class="classify_title c_2_web f_w">
+											<a href="#">我是標題</a>
+											<div class="s_classify t_right">
+												<div class="p_underline p_underline_7"></div>
+												<span><a href="#">我是標題</a></span>
+												<span><a href="#">我是標題</a></span>
+												<span><a href="#">我是標題</a></span>
+											</div><!--End s_classify-->
+										</div><!--End classify_title-->
+									</div><!--End classify-->
+									<div class="product">
+										<div class="product_main">
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">四季良品 紫色嘉年華經典沙發和室椅</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product2.jpg"></a><div class="pname">miffy-米飛暖暖寶貝毯-2款任選</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product3.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product4.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+										<div class="product_main product_main_hidden">
+											<div><a href="#"><img src="img/product5.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+											<div><a href="#"><img src="img/product1.jpg"></a><div class="pname">國國國國國</div><span><span class="price_symbol">$ </span>931,999</span></div>
+										</div>
+									</div><!--End product-->
+								</div><!--End block-->
+							</li>
+							<li>
+								<div class="block_1">
+									<div class="banner_8 color_o"><a href="#"><div><span></span>天天轉轉樂</div></a></div>
+									<div class="banner_8 color_b"><a href="#"><div><span></span>森森購物粉絲團</div></a></div>
+									<!--
+									<div class="banner_8 color_g"><a href="#"><div><span></span>LINE官方帳號</div></a></div>
+									<div class="banner_8 color_r"><a href="#"><div><span></span></div></a></div>
+									-->
+								</div><!--End block-->
+							</li>
+						</ul>
+					</div>
+					<div class="scupioRecommand">
+						<div class="pc_title">您可能感興趣的商品</div>
+						<div class="pc_content">
+							<div class="scupioRecommand_a">
+								<div class="scupioRecommand_b">
+									<div class="scupioRecommand_slide">
+										<div class="scupioRecommandProd">
+											<a href="#">
+												<img src="http://img2.u-mall.com.tw//ProductImage/05272/05272276/5272276_L.jpg">
+												<div class="scupioRecommand_name">【MOROM】西雅圖真皮復古皮夾(黑色)測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試測試</div>
+												<div class="price_div ProPrc"><div class="price_symbol">$</div>799</div>
+											</a>
+										</div>
+										<div class="scupioRecommandProd">
+											<a href="#">
+												<img src="http://img2.u-mall.com.tw//ProductImage/05272/05272276/5272276_L.jpg">
+												<div class="scupioRecommand_name">【MOROM】西雅圖真皮復古皮夾(黑色)</div>
+												<div class="price_div ProPrc"><div class="price_symbol">$</div>799</div>
+											</a>
+										</div>
+										<div class="scupioRecommandProd">
+											<a href="#">
+												<img src="http://img2.u-mall.com.tw//ProductImage/05272/05272276/5272276_L.jpg">
+												<div class="scupioRecommand_name">【MOROM】西雅圖真皮復古皮夾(黑色)</div>
+												<div class="price_div ProPrc"><div class="price_symbol">$</div>799</div>
+											</a>
+										</div>
+										<div class="scupioRecommandProd">
+											<a href="#">
+												<img src="http://img2.u-mall.com.tw//ProductImage/05272/05272276/5272276_L.jpg">
+												<div class="scupioRecommand_name">【MOROM】西雅圖真皮復古皮夾(黑色)【MOROM】西雅圖真皮復古皮夾(黑色)【MOROM】西雅圖真皮復古皮夾(黑色)【MOROM】西雅圖真皮復古皮夾(黑色)【MOROM】西雅圖真皮復古皮夾(黑色)</div>
+												<div class="price_div ProPrc"><div class="price_symbol">$</div>799</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="index_banner_list">
+								<ul id="position4" class="position">
+								</ul>
+							</div>
+<script type="text/javascript" src="http://www.u-mall.com.tw/userfiles/Material/make/0004/4750/jquery.dotdotdot.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.scupioRecommand_name').dotdotdot();
+	$(window).resize(function() {
+		$('.scupioRecommand_name').dotdotdot();
+	});
+});
+</script>
+<style type="text/css">
+.scupioRecommand {
+	width: 100%;
+	margin: 10px auto;
+}
+.scupioRecommand_a {
+	position: relative;
+	width: 100%;
+	height: 352px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.scupioRecommand_b {
+	position: absolute;
+	left: 50%;
+}
+.scupioRecommand_slide {
+	position: relative;
+	left: 0;
+	width: 1032px;
+	height: 352px;
+}
+.scupioRecommandProd {
+	float: left;
+	position: relative;
+	width: 250px;
+	height: 340px;
+	margin: 6px 3px;
+	border: 1px solid #ddd;
+}
+.scupioRecommandProd img {
+	width: 96%;
+	margin: 2%;
+}
+.scupioRecommand_name {
+	height: 42px;
+	margin: 3%;
+	line-height: 140%;
+	font-size: 15px;
+	overflow: hidden;
+}
+.ProPrc {
+	color: #f01400;
+	font-size: 24px;
+	font-weight: 600;
+}
+.pc_content ul.position li {
+	width: 10px;
+	padding: 0;
+	border: 0;
+}
+</style>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<a href="#">電腦版</a><span>|</span>服務條款<span>|</span>隱私權政策<br />森森百貨股份有限公司 版權所有
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="side sideLeft">
+		<div class="panel">
+			<p class="navi_title f_15">全站商品分類</p>
+			<div id="panelWrap">
+				<ul class="panel_list f_17">
+					<li class="navi_red"><a href="#">電視購物</a></li>
+					<li class="navi_red"><a href="#">快速到貨</a></li>
+					<li class="navi_purple"><a href="#">美妝</a></li>
+					<li class="navi_green"><a href="#">保健</a></li>
+					<li class="navi_pink"><a href="#">內塑衣</a></li>
+					<li class="navi_pink"><a href="#">服飾</a></li>
+					<li class="navi_pink"><a href="#">鞋包</a></li>
+					<li class="navi_brown"><a href="#">精品珠寶</a></li>
+					<li class="navi_blue"><a href="#">3C</a></li>
+					<li class="navi_blue"><a href="#">家電</a></li>
+					<li class="navi_blue"><a href="#">手機相機</a></li>
+					<li class="navi_blue"><a href="#">旅遊</a></li>
+					<li class="navi_green"><a href="#">美食</a></li>
+					<li class="navi_life"><a href="#">居家</a></li>
+					<li class="navi_life"><a href="#">婦幼</a></li>
+					<li class="navi_life"><a href="#">運動│車</a></li>
+					<li class="navi_life"><a href="#">傢俱寢飾</a></li>
+				</ul><!--End panel_list-->
+			</div>
+		</div><!--End panel-->
+	</div>
+	<div class="side sideRight">
+		<p class="navi_title f_15">會員服務</p>
+		<ul class="memberService">
+			<li><a href="#">會員登入/註冊</a></li>
+			<li><a href="#">我的優惠&折價券兌換</a></li>
+			<li><a href="#">我的收藏</a></li>
+			<li><a href="#">修改個人資料</a></li>
+			<li><a href="#">修改登入密碼</a></li>
+			<li><a href="#">收貨地址管理</a></li>
+		</ul>
+		<p class="navi_title f_15">其他</p>
+		<ul class="otherService">
+			<li><a href="#">切換至電腦版</a></li>
+			<li><a href="#">用戶指南</a></li>
+			<li><a href="#">我要退貨</a></li>
+			<li><a href="#">聯繫客服</a></li>
+		</ul>
+	</div>
+</div>
+<div id="side_left_click"></div>
+<div id="side_right_click"></div>
+</body>
+</html>

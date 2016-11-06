@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="WCIT,WCIT 2017,WCIT Taiwan,WCIT Taipei">
+<!-- share link -->
+<meta name="description" property="og:description" itemprop="description" content="WCIT 2017, 10-13 September 2017, Taipei, Taiwan">
+<meta property="og:url" content="http://web-demo.digiorange.com.tw/">
+<meta property="og:title" itemprop="name" content="WCIT 2017">
+<meta property="og:image" itemprop="image" content="http://web-demo.digiorange.com.tw/images/share_link.png">
+<meta property="fb:app_id" content="1126641480732417">
+<title>WCIT 2017</title>
+<link rel="stylesheet" href="css/wcit.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/wcit.js"></script>
+<script>
+function jumpTab(num) {
+	location.hash = num;
+	window.location.href = 'page/program.html' + location.hash;
+};
+
+$(window).scroll(function() {
+	if ($(this).scrollTop() > $(window).height()) {
+		$('nav').addClass('active');
+	} else {
+		$('nav').removeClass('active');
+	}
+});
+</script>
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<ul>
+			<li>
+				<a href="zh-TW/index.html">中文</a>
+				<a>English</a>
+			</li>
+			<li>
+				<a>Contact</a>
+			</li>
+			<li class="share">
+				<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwcitdemo.digiorange.com.tw%2F"><div class="fb"></div></a>
+				<a target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwcitdemo.digiorange.com.tw%2F"><div class="tw"></div></a>
+				<a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwcitdemo.digiorange.com.tw%2F"><div class="in"></div></a>
+				<a target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwcitdemo.digiorange.com.tw%2F"><div class="gp"></div></a>
+			</li>
+		</ul>
+	</header>
+	<nav>
+		<div class="logo"></div>
+		<div class="m_menu">
+			<div class="m_menu_1"></div>
+			<div class="m_menu_2"></div>
+			<div class="m_menu_3"></div>
+		</div>
+		<div class="menu">
+			<a href="page/about.html">About</a>
+			<a onclick="anchor('.agenda')">Program</a>
+			<a onclick="anchor('.speaker')">Speaker</a>
+			<a href="page/register.html">Registration</a>
+			<a href="page/exhibition.html">Exhibition</a>
+			<a href="page/sponsor.html">Sponsor</a>
+			<a onclick="anchor('.b2b')">B2B</a>
+			<a onclick="anchor('.brochure')">City Tour</a>
+			<a onclick="anchor('.ict')">ICT in Taiwan</a>
+		</div>
+	</nav>
+	<div class="content">
+		<div class="menufilter"></div>
+		<div class="bgvideo">
+			<div class="bgvmove">
+				<video autoplay loop muted>
+					<source src="video/bgvideo.mp4" type="video/mp4">
+					<source src="video/bgvideo.webm" type="video/webm">
+				</video>
+			</div>
+			<div class="bgfilter">
+				<div class="down_arrow"></div>
+			</div>
+			<div class="p1">
+				<div class="p1_logo"><div></div></div>
+				<div class="p1_text">
+					<p>
+						<span>Fulfilling the Promise of the Digital Age</span><br>
+						10 - 13 September 2017<br>
+						<span>Taipei,Taiwan</span>
+					</p>
+				</div>
+				<div class="p1_text2">Building and Sharing the Dream</div>
+				<div class="p1_button"><a href="page/register.html">Register</a></div>
+			</div>
+		</div>
+		<div class="news">
+			<p class="subt">NEWS</p>
+			<div class="carousel">
+				<div class="carousel_wrap">
+					<div class="carousel_scroll">
+						<div>
+							<div class="lightbox" onclick="lightbox()">
+								<img src="images/news_5.jpg">
+								<p><span>2017年世界資訊科技大會系列論壇-遇見明日城市</span><br>為積極推動產業轉型，運用臺灣既有的資通訊科技優勢，幫助國內產業掌握智慧與綠色成長契機，經濟部工業局於今日(5月27日)假台北國際會議中心舉辦「2017年世界資訊科技大會系列論壇-遇見明日城市」</p><p class="readmore">read more...</p>
+							</div>
+						</div>
+						<!-- <div>
+							<a href="http://money.udn.com/money/story/5635/1263898" target="_blank">
+								<img src="images/news_1.jpg">
+								<p><span>WCIT在台啟動儀式 展示創意軟實力</span><br>世界資訊科技大會在臺灣「2017世界資訊科技大會啟動儀式」(WCIT2017)21日在經濟部舉行。</p><p class="readmore">read more...</p>
+							</a>
+						</div> -->
+						<!-- <div>
+							<a href="http://udn.com/news/story/6/1441889" target="_blank">
+								<img src="images/news_2.jpg">
+								<p><span>行政院搭橋 「寶島通」跨業聯盟成軍</span><br>行政院搭橋，集結經濟部、交通部、金管會、農委會等跨部會能量，今天宣布「寶島通」跨業聯盟正式成軍。</p><p class="readmore">read more...</p>
+							</a>
+						</div> -->
+						<div>
+							<a href="http://www.chinatimes.com/newspapers/20160607000394-260208" target="_blank">
+								<img src="images/news_6.jpg">
+								<p><span>2017世界資訊科技論壇 聚焦智慧城</span><br>為積極推動產業轉型，運用臺灣既有的資通訊科技優勢，幫助國內產業掌握智慧與綠色成長契機，經濟部工業局日前舉辦「2017年世界資訊科技大會系列論壇－遇見明日城市」</p><p class="readmore">read more...</p>
+							</a>
+						</div>
+						<div>
+							<a href="http://www.cw.com.tw/article/article.action?id=5076761" target="_blank">
+								<img src="images/news_7.jpg">
+								<p><span>2017WCIT系列／Moblie及Big Data串聯人、城市與環境</span><br>麻省理工學院卡蕯萊尼奧演說：行動體驗與數據資訊之技術發展將和人們、城市、環境產生哪些連結？</p><p class="readmore">read more...</p>
+							</a>
+						</div>
+						<div>
+							<a href="http://www.cw.com.tw/article/article.action?id=5076760" target="_blank">
+								<img src="images/news_8.jpg">
+								<p><span>2017WCIT系列／發展永續城市的六大課題</span><br>歐盟永續城市共同主席白瑞華：推動低碳城市是城市永續發展的契機，掌控氣候變遷也將成為發展明日智慧城市的重要課程。</p><p class="readmore">read more...</p>
+							</a>
+						</div>
+						<div>
+							<a href="http://udn.com/news/story/7240/1577627" target="_blank">
+								<img src="images/news_3.jpg">
+								<p><span>智慧城市展明開鑼 大咖到齊</span><br>智慧城市展明（22）起盛大開幕，華碩、研華、大同、中華電信、遠傳等龍頭大廠全線到齊，120家廠商共襄盛舉。</p><p class="readmore">read more...</p>
+							</a>
+						</div>
+						<div>
+							<a href="http://witsa.org/witsa-wp-site/witsa-news/brazilian-deputies-express-support-for-brazil-wcit-2016/" target="_blank">
+								<img src="images/news_4.jpg">
+								<p><span>Brazilian Deputies express support for Brazil WCIT 2016</span><br>"As host of the 20th World Congress on IT, Brasilia and Brazil can benefit from more than $ 17 million ...</p><p class="readmore">read more...</p>
+							</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<ul class="position"></ul>
+				<div class="position_prev"></div>
+				<div class="position_next"></div>
+			</div>
+		</div>
+		<div class="brochure">
+			<a class="brochure_rad">
+				<div class="brochure_mask"></div>
+				<div class="brochure_btn">Transit Info</div>
+			</a>
+			<a class="brochure_rad">
+				<div class="brochure_mask"></div>
+				<div class="brochure_btn">Hotel Info</div>
+			</a>
+			<a class="brochure_rad" href="page/tour.html">
+				<div class="brochure_mask"></div>
+				<div class="brochure_btn">City Tour</div>
+			</a>
+			<a class="brochure_rad">
+				<div class="brochure_mask"></div>
+				<div class="brochure_btn">Weather</div>
+			</a>
+			<div class="clear"></div>
+		</div>
+		<div class="speaker">
+			<p class="subt">SPEAKERS</p>
+			<div class="carousel">
+				<div class="carousel_wrap">
+					<div class="carousel_scroll">
+						<!-- <div>
+							<div class="speaker_1">
+								<img src="images/speakers/Federico-Casalegno.jpg">
+								<p>Federico Casalegno</p>
+								<p>Massachusetts Institute of Technology</p>
+								<p style="font-size:12px;line-height:14px;">Associate Professor of the Practice Director of the MIT Design Lab, Mobile Experience Lab</p>
+							</div>
+							<div class="speaker_2">
+								<p>Federico Casalegno, Associate Professor of the Practice, is the Founder and Director of the MIT Design Lab, Mobile Experience Lab at the Massachusetts Institute of Technology, SHASS, program in Comparative Media Studies.</p>
+							</div>
+						</div> -->
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Alex_Sandy_Pentland.jpg">
+								<p>Professor Alex S. Pentland</p>
+								<p>MIT Connection Science and Human Dynamics labs</p>
+							</div>
+							<div class="speaker_2">
+								<p>Professor Alex “Sandy” Pentland helped creates and directs the MIT Media Lab and the Media Lab Asia. He is one of the most-cited scientists in the world, and Forbes magazine recently declared him one of the “7 most powerful data scientists in the world.”</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Eva_Chen.jpg">
+								<p>Eva Chen</p>
+								<p>The co-founder of Trend Micro’s</p>
+							</div>
+							<div class="speaker_2">
+								<p>Eva Chen is the co-founder of Trend Micro’s, who is part of the most influential executives and innovation director in the industry. In 2012, V3 magazine named her one of the top 10 high-flying Women in Technology.</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/speakers_demo.jpg">
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="speaker_2">
+								<p></p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/speakers_demo.jpg">
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="speaker_2">
+								<p></p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/speakers_demo.jpg">
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="speaker_2">
+								<p></p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/speakers_demo.jpg">
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="speaker_2">
+								<p></p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/speakers_demo.jpg">
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="speaker_2">
+								<p></p>
+							</div>
+						</div>
+						<!-- <div>
+							<div class="speaker_1">
+								<img src="images/speakers/Elon-Musk.jpg">
+								<p>ELON MUSK</p>
+								<p>CO-FOUNDER &amp; CEO</p>
+								<p>TESLA MOTORS</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, and philanthropist. He is the chairman, chief executive, and co-founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Bill-Gates.jpg">
+								<p>BILL GATES</p>
+								<p>CO-FOUNDER</p>
+								<p>MICROSOFT</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, and philanthropist. He is the chairman, chief executive, and co-founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Larry-Page.jpg">
+								<p>LARRY PAGE</p>
+								<p>CO-FOUNDER &amp; CEO</p>
+								<p>ALPHABET Inc.</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, and philanthropist. He is the chairman, chief executive, and co-founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Tim-Cook.jpg">
+								<p>TIM COOK</p>
+								<p>CEO</p>
+								<p>APPLE Inc.</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, and philanthropist. He is the chairman, chief executive, and co-founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Sergey-Brin.jpg">
+								<p>SERGEY BRIN</p>
+								<p>CO-FOUNDER</p>
+								<p>ALAPHABET</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, and philanthropist. He is the chairman, chief executive, and co-founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div>
+						<div>
+							<div class="speaker_1">
+								<img src="images/speakers/Alex-Pentland.jpg">
+								<p>ALEX PENTLAND</p>
+							</div>
+							<div class="speaker_2">
+								<p>an American computer programmer, Internet entrepreneur, d philanthropist. He is the chairman, chief executive, and -founder of the social networking website Facebook.[4][5] His net worth is estimated to be $48.2 billion as of 2016</p>
+							</div>
+						</div> -->
+						<!-- <div>
+							<a href="page/speaker.html">
+								<div class="flipInX"><p>More Speaker</p></div>
+							</a>
+						</div> -->
+						<div>
+							<a href="page/speaker.html">
+								<div class="speaker_1">
+									<p class="speaker_ms">More Speaker</p>
+								</div>
+								<div class="speaker_2">
+									<p class="speaker_ms2">More Speaker</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<ul class="position"></ul>
+				<div class="position_prev"></div>
+				<div class="position_next"></div>
+			</div>
+			<div class="link_btn" style="margin-top:50px;"><a href="page/speaker.html">View Speaker<span></span></a></div>
+		</div>
+		<div class="agenda">
+			<p class="subt">AGENDA</p>
+			<ul>
+				<li><a onclick="jumpTab(1)"><p>Smart Cities</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Cloud</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Digital Platform</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>IoT</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Cybersecurity</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>AI</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Big Data</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Fintech</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>eGovernment</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Education</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Healthcare</p></a></li>
+				<li><a onclick="jumpTab(1)"><p>Wearables</p></a></li>
+				<div class="clear"></div>
+			</ul>
+			<div class="link_btn"><a href="page/program.html">View Program<span></span></a></div>
+		</div>
+		<div class="ict">
+			<p class="subt">ICT IN TAIWAN</p>
+			<div class="yt">
+				<div>
+					<iframe width="388" height="218" src="https://www.youtube.com/embed/QL5dtD0MVEs?rel=0" frameborder="0" allowfullscreen></iframe>
+					<p>Bike Sharing System</p>
+				</div>
+				<div>
+					<iframe width="388" height="218" src="https://www.youtube.com/embed/cIR0S7-4GR4?rel=0" frameborder="0" allowfullscreen></iframe>
+					<p>Smart Healthcare</p>
+				</div>
+				<div>
+					<iframe width="388" height="218" src="https://www.youtube.com/embed/UCeyEKj8RM8?rel=0" frameborder="0" allowfullscreen></iframe>
+					<p>Smart Education</p>
+				</div>
+			</div>
+			<div class="link_btn"><a href="page/ict.html">More<span></span></a></div>
+		</div>
+		<!-- <div class="sponsor">
+			<p class="subt"><a href="page/sponsor.html">SPONSORS AND EXHIBITORS</a></p>
+			<div class="sponsor_img">
+				<a href="http://www.foxconn.com.tw/index_En.html" target="_blank"><img src="images/sponsors/foxconn.png" width="260"></a>
+				<a href="http://www.tsmc.com/english/default.htm" target="_blank"><img src="images/sponsors/tsmc.png"></a>
+				<a href="http://www.digiorange.com.tw/" target="_blank"><img src="images/sponsors/digiorange.png"></a>
+				<a href="http://www.aseglobal.com/en/" target="_blank"><img src="images/sponsors/ase.png"></a>
+				<a href="http://www.trendmicro.com/us/index.html" target="_blank"><img src="images/sponsors/trend.png"></a>
+			</div>
+		</div> -->
+		<div class="sponsor">
+			<p class="subt"><a href="page/sponsor.html">SPONSORS AND EXHIBITORS</a></p>
+			<div class="sponsor_carousel">
+				<div class="sc_scroll">
+					<figure><a href="http://www.foxconn.com.tw/index_En.html" target="_blank"><img src="images/sponsors/foxconn.png"></a></figure>
+					<figure><a href="http://www.tsmc.com/english/default.htm" target="_blank"><img src="images/sponsors/tsmc.png"></a></figure>
+					<figure><a href="http://www.cyberlink.com/" target="_blank"><img src="images/sponsors/cyberlink.png"></a></figure>
+					<figure><a href="http://www.perfectcorp.com/" target="_blank"><img src="images/sponsors/perfect.png"></a></figure>
+					<figure><a href="http://www.aseglobal.com/en/" target="_blank"><img src="images/sponsors/ase.png"></a></figure>
+					<figure><a href="http://www.trendmicro.com/us/index.html" target="_blank"><img src="images/sponsors/trend.png"></a></figure>
+					<figure><a href="http://www.liteon.com/" target="_blank"><img src="images/sponsors/liteon.png"></a></figure>
+					<figure><a href="http://www.quantatw.com/Quanta/english/Default.aspx" target="_blank"><img src="images/sponsors/quanta.png"></a></figure>
+					<figure><a href="http://www.fetnet.net/Home/index.html" target="_blank"><img src="images/sponsors/fetnet.png"></a></figure>
+					<figure><a href="http://www.planet.com.tw/" target="_blank"><img src="images/sponsors/planet.png"></a></figure>
+					<!-- <figure><a href="http://english.taiwanmobile.com/" target="_blank"><img src="images/sponsors/taiwanmobile.png"></a></figure> -->
+					<figure><a href="http://www.digiorange.com.tw/" target="_blank"><img src="images/sponsors/digiorange.png"></a></figure>
+					<figure><a href="http://www.pcschool.com.tw/" target="_blank"><img src="images/sponsors/pcschool.png"></a></figure>
+					<figure><a href="http://www.liveabc.com/english/index.asp" target="_blank"><img src="images/sponsors/liveabc.png"></a></figure>
+					<figure><a href="http://www.deltaww.com/default.aspx?hl=en-US" target="_blank"><img src="images/sponsors/delta.png"></a></figure>
+				</div>
+				<div class="position_prev"></div>
+				<div class="position_next"></div>
+			</div>
+		</div>
+		<div class="b2b">
+			<p class="subt">B2B SESSIONS</p>
+			<p>Make an appointment with our sponsors.</p>
+			<div class="b2b_input">
+				<form action="" method="post">
+					<select name="select1">
+						<option value="0">Date</option>
+						<option value="1">2017/09/10</option>
+						<option value="2">2017/09/11</option>
+						<option value="3">2017/09/12</option>
+						<option value="4">2017/09/13</option>
+					</select>
+					<select name="select2">
+						<option value="0">Time</option>
+						<option value="1">09:00</option>
+						<option value="2">10:00</option>
+						<option value="3">11:00</option>
+						<option value="4">12:00</option>
+						<option value="5">13:00</option>
+						<option value="6">14:00</option>
+						<option value="7">15:00</option>
+						<option value="8">16:00</option>
+						<option value="9">17:00</option>
+					</select>
+					<select name="select3">
+						<option value="0">Company</option>
+						<option value="1">Foxconn</option>
+						<option value="2">TSMC</option>
+						<option value="3">CyberLink</option>
+						<option value="4">PERFECT</option>
+						<option value="5">ASE Group</option>
+						<option value="6">Trend Micro</option>
+						<option value="7">LITEON</option>
+						<option value="8">Quanta</option>
+						<option value="9">FAREASTONE</option>
+						<option value="10">PLANET</option>
+						<option value="11">DigiOrange</option>
+						<option value="12">Gjun</option>
+						<option value="13">LiveABC</option>
+						<option value="14">DELTA</option>
+					</select>
+					<!-- <button type="submit">submit</button> -->
+				</form>
+			</div>
+			<div class="link_btn"><a>Request</a></div>
+		</div>
+	</div>
+	<footer>Copyright &copy; WCIT 2017 - Developed by <a href="http://www.digiorange.com.tw/" target="_blank">DigiOrange</a> - All Rights Reserved.</footer>
+</div>
+<div class="lightbox_target">
+	<div class="lightbox_bg">
+		<div class="lightbox_close"></div>
+	</div>
+	<div class="lightbox_content active">
+		<p class="lc_time">2016年5月27日</p>
+		<p class="lc_title">「2017年世界資訊科技大會系列論壇-遇見明日城市」</p>
+		<p class="lc_title">以資通訊實力為磐石 掌握智慧與綠科技驅動的永續城市</p>
+		<p class="lc_text">為積極推動產業轉型，運用臺灣既有的資通訊科技優勢，幫助國內產業掌握智慧與綠色成長契機，經濟部工業局於今日(5月27日)假台北國際會議中心舉辦「2017年世界資訊科技大會系列論壇-遇見明日城市」，特別與臺灣歐洲商會合作，邀請包括歐盟永續城市系統平台主席白瑞華教授分享歐洲智慧永續城市經驗、美國麻省理工學院行動體驗實驗室主任卡薩萊尼奧博士分享行動與大數據等智慧城市應用趨勢，以及由經濟部工業局呂正華副局長、歐洲商會副理事長暨低碳倡議總監尹容、與國內產業領導企業包括台積十二廠林廷皇廠長、日月光營運長吳田玉博士、台達研究院副院長林育震進行領袖對話，共同探討臺灣產業智慧升級與綠色轉型的機會與挑戰。</p>
+		<p class="lc_text">主辦單位經濟部工業局呂正華副局長於今(27)日致詞時表示，智慧城市的發展必須奠基在環境永續、經濟成長與生活品質之上。各先進國家無不紛紛投入智慧永續城市的建置，臺灣更不能缺席，也希望讓世界看見臺灣在永續經營上的努力。臺灣擁有堅強的ICT硬體實力、更有豐富出口經驗為堅強後盾，政府正積極推動智慧城市系統計畫與相關應用，發展出具國際競爭力的物聯網產業鏈。</p>
+		<p class="lc_text">應邀擔任貴賓出席的經濟部李世光部長在致詞時也表示，臺灣為能源不足的海島型國家，和鄰國日韓面臨類似困境，都需要進口能源，加上臺灣的能源消耗量高居全球前25名(英國石油公司, 2013)、屬於「耗能大國」之列，因此運用智慧工具推動綠能轉型，不僅是國家經濟發展的重要策略，更是攸關社會福祉與國家安全的議題。此外，面對近年來全球ICT環境劇烈變化與國際競爭壓力，我國向來自傲的資通訊產業亟待提升產業士氣、找到新契機。因此經濟部希望運用臺灣ICT的堅強基礎與創新能量，推動新政府致力發展的五大創新產業，如綠能、以物聯網為主的亞洲矽谷、智慧機械等，達到軟硬整合目的，並且落實「能源安全」、「綠色經濟」、「環境永續」的國家經濟發展願景。</p>
+		<p class="lc_text">李世光部長指出，經濟部將汲取歐美推動創新生態系的成功經驗，鼓勵產官學研發資源整合，提高研發成果商轉與進入市場的成功機率，同時帶動青年創業風潮。例如歐洲的智慧城市是透過歐洲創新技術研究院(European Institute of Innovation and Technology)的知識創新體(Knowledge and Innovation Complex, KIC)進行推動，整合了知識的鐵三角(大專校院、企業界及研究機構)，從2009年到去年11月期間，已成功促成800多間產研機構合作、181家新創企業成立、142件創新產品與服務出現，以及478件知識轉移與採用案例，相關的公私夥伴關係(Public Private Partnership)機制值得台灣學習。 此外，美國政府最近推出的國家製造創新網路計畫(National Network for Manufacturing Innovation, NNMI)，希望透過重新投資供應鏈的創新，支持技術密集製造企業，也值得臺灣政府借鏡。美國政府透過這些創新體推動從設計到製造的美國在地價值鏈，進而形成產業聚落。以麻省理工學院(MIT)負責執行的革命性纖維與紡織創新製造研究院(Revolutionary Fibers and Textiles Manufacturing Innovation Institute, RFT-MII)計畫為例，目標是研發出可看、可聽、可感應、可溝通、可儲存電力、可控溫、可監測健康，可變色的纖維。除了MIT的參與挹注重要的創新與研發能量，MIT也將建立在地化發展機制，結合來自不同產業的合作夥伴，例如音響製造商Bose、晶片製造商Intel、奈米纖維製造商FibeRio等，以達創新合作之效。</p>
+		<p class="lc_text">「遇見明日城市」是經濟部工業局為籌辦2017年世界資訊科技大會(World Congress on Information Technology, WCIT) 舉辦的第一場國際活動，論壇聚焦「綠色創新」與「行動智慧」，邀請國際大師與國內產官學領袖共同探討臺灣運用資通訊科技產業優勢永續發展機會與挑戰。例如應邀來台主講人之一的國際知名學者白瑞華教授(Professor Raoul Bunschoten) 專長為結合能源永續使用的智慧城市發展計畫，目前是歐洲創研院氣候變遷知識創新體(Climate-KIC)的永續城市系統平台共同主席，也參與柏林智慧城市計畫，在論壇中也分享柏林市發展智慧城市的經驗與做法，包括運用大數據監控並管理氣候變遷資料及都市的能源使用，並且使用智慧工具邀請市民共同參與智慧都市的規劃與發展。此外麻省理工學院行動體驗實驗室主任也分享該實驗室如何思考新興科技及環繞這些新科技的社會、文化與物理空間關係，透過設計人與科技人的跨界合作，驅動創新應用的出現、定義未來的銀行與飯店。在論壇活動的領袖對話中，除了歐洲商會低碳辦公室總監尹容(Giuseppe Izzo)分享了歐洲各國推動智慧永續城市，特別是運用Digital Technologies的政策與做法，多位國內產業領袖，例如全球半導體龍頭台積公司、綠能先驅台達公司、以及全球最大IC封裝公司日月光，也分別分享他們在綠色供應鏈的推動成績，並探討未來臺灣資通訊科技產業在物聯網經濟的契機。</p>
+		<p class="lc_text">在第一場論壇之後，主辦單位將持續規劃以金融科技、車聯網為主的國際論壇，一方面為臺灣明年主辦的 2017年世界資訊科技大會進行暖身，一方面達成分享國際前瞻知識的效果，更促成臺灣產官學研透過相關合作「一起動起來」、讓臺灣能在明年的國際盛會展示世界級智慧永續城市應用，邀請全球資訊與意見領袖見證臺灣產業結構的升級與轉型，亦即從ICT硬體製造大國、變身為智慧永續城市完整解決方案的服務提供者。</p>
+		<p class="lc_title">關於2017年世界資訊科技大會(WCIT 2017)</p>
+		<p class="lc_text">世界資訊科技大會(World Congress on Information Technology, WCIT)有資通訊科技界的「奧林匹克大會」之美譽，WCIT除討論資通訊創新趨勢議題並介紹先進技術外，近年也已成為全球ICT政策討論平台：固定會議夥伴包括聯合國貿易及發展會議(UNCTAD)、世界經濟論壇(WEF)、經濟合作暨發展組織(OECD)、世界銀行(World Bank) 等。WCIT活動傳統為邀請領導企業與前瞻思想領袖，分享其對未來資訊科技發展之觀點及願景，臺灣曾於2000年主辦WCIT 2000，當時資訊科技領袖如比爾蓋茲(Bill Gates)、約翰錢伯斯(John Chambers)、卡莉·菲奧莉娜(Carly Fiorina)都曾受邀來台。在暌違臺灣17年後，我國將於2017年再度主辦世界資訊科技大會，邀請兩千多位國內外貴賓實際體驗臺灣的智慧城市應用，展現臺灣產業「軟硬整合」的堅強實力。<br>WCIT 2017，世界將走進來，讓世界，再一次看見台灣。</p>
+		<p class="lc_title">【新聞聯絡人】</p>
+		<p class="lc_text">WCIT 2017執行會專案辦公室聯絡人</p>
+		<p class="lc_text">黃玉華	電話：02-2771-4158 / 0911-085-453	email: samanthahuang@iii.org.tw</p>
+		<p class="lc_text">黃暐婷	電話：02-2771-4955 / 0912-280-601	email: wt@iii.org.tw</p>
+		<p class="lc_text">京曜行銷顧問新聞聯絡人</p>
+		<p class="lc_text">張瓊霙	電話：02-8501-2625 / 0910-180-625	email: aaliyah@kiyo.com.tw</p>
+		<p class="lc_text">林宇宥	電話：02-8501-2625 / 0928-166-124 	email: naomi@kiyo.com.tw</p>
+	</div>
+</div>
+</body>
+</html>

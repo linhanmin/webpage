@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>歡迎來到人格特質線上評量檢測系統</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/pc.css">
+<!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/lt_ie8.css">
+<![endif]-->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script type="text/javascript">
+//alert(navigator.userAgent);
+function IsPC() {
+  var userAgentInfo = navigator.userAgent;
+  var Agents = new Array("Mobile");
+  var flag = true;
+  for (var v = 0; v < Agents.length; v++) {
+    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+  }
+  return flag;
+}
+
+var x = IsPC();
+if (x === false) {
+  document.write('<link rel="stylesheet" type="text/css" href="css/mobile.css">');
+  $(document).ready(function(){
+    $("#c4_title").sticky({ topSpacing: 40 });
+  });
+}
+
+</script>
+
+</head>
+
+<body>
+<div id="header">
+  <div id="header_content">
+    <div id="header_content_l"><span class="green_20px">歡迎來到</sapn>&nbsp;<span class="white_20px_5px">人格特質線上評量系統</span></div>
+    <div id="header_content_r"><span class="green_15px">日月知識股份有限公司</span></div>
+  </div>
+</div>
+<div id="header_m"></div>
+<div id="content_bg"></div>
+<div id="content">
+  <div id="banner1" class="banner"><img src="images/banner.png"></div>
+  <div id="banner2" class="banner"><img src="images/banner_m.png"></div>
+  <div id="site1" class="site"><img src="images/step4.png"></div>
+  <div id="site2" class="site"><img src="images/step4_m.png"></div>
+  <div id="main">
+    <div id="main_title"><span></span><p>評量測驗</p></div>
+    <div id="data_top">
+      <div id="test_top1">
+        <img src="images/c2_item04.png">
+      </div>
+      <div id="test_top2">
+        <p>請在下列各題的形容詞中點選 <span class="orange_24px">最真實最符合</span> 本我的數字。5代表絕對是，1代表絕對不是。</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="c4_title">
+      <div id="c4_title_l">&nbsp;</div>
+      <div id="c4_title_r">
+        <div id="c4_title_rp">
+          <div class="c4_title_item">絕對不是</div>
+          <div class="c4_title_item">不是</div>
+          <div class="c4_title_item">有時候是<br>有時候不是</div>
+          <div class="c4_title_item">是</div>
+          <div class="c4_title_item">絕對是</div>
+        </div>
+        <div id="c4_title_m"><img src="images/c4_title.png"></div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line2"></div>
+    </div>
+    <div class="clear_x"></div>
+    <div id="data_content3">
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">01</div><p>值得相信的</p></div>
+          <div class="c4_item"><div class="c4_item_title">02</div><p>溫和的</p></div>
+          <div class="c4_item"><div class="c4_item_title">03</div><p>善解人意的</p></div>
+          <div class="c4_item"><div class="c4_item_title">04</div><p>喜好獨立作業的</p></div>
+          <div class="c4_item"><div class="c4_item_title">05</div><p>受人尊敬的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item1"></div>
+            <div class="c4_test_item">2<input type="radio" name="item1"></div>
+            <div class="c4_test_item">3<input type="radio" name="item1"></div>
+            <div class="c4_test_item">4<input type="radio" name="item1"></div>
+            <div class="c4_test_item">5<input type="radio" name="item1"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item2"></div>
+            <div class="c4_test_item">2<input type="radio" name="item2"></div>
+            <div class="c4_test_item">3<input type="radio" name="item2"></div>
+            <div class="c4_test_item">4<input type="radio" name="item2"></div>
+            <div class="c4_test_item">5<input type="radio" name="item2"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item3"></div>
+            <div class="c4_test_item">2<input type="radio" name="item3"></div>
+            <div class="c4_test_item">3<input type="radio" name="item3"></div>
+            <div class="c4_test_item">4<input type="radio" name="item3"></div>
+            <div class="c4_test_item">5<input type="radio" name="item3"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item4"></div>
+            <div class="c4_test_item">2<input type="radio" name="item4"></div>
+            <div class="c4_test_item">3<input type="radio" name="item4"></div>
+            <div class="c4_test_item">4<input type="radio" name="item4"></div>
+            <div class="c4_test_item">5<input type="radio" name="item4"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item5"></div>
+            <div class="c4_test_item">2<input type="radio" name="item5"></div>
+            <div class="c4_test_item">3<input type="radio" name="item5"></div>
+            <div class="c4_test_item">4<input type="radio" name="item5"></div>
+            <div class="c4_test_item">5<input type="radio" name="item5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">06</div><p>認真的</p></div>
+          <div class="c4_item"><div class="c4_item_title">07</div><p>慈悲溫情的</p></div>
+          <div class="c4_item"><div class="c4_item_title">08</div><p>有說服力的</p></div>
+          <div class="c4_item"><div class="c4_item_title">09</div><p>大膽的</p></div>
+          <div class="c4_item"><div class="c4_item_title">10</div><p>講求精確的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item6"></div>
+            <div class="c4_test_item">2<input type="radio" name="item6"></div>
+            <div class="c4_test_item">3<input type="radio" name="item6"></div>
+            <div class="c4_test_item">4<input type="radio" name="item6"></div>
+            <div class="c4_test_item">5<input type="radio" name="item6"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item7"></div>
+            <div class="c4_test_item">2<input type="radio" name="item7"></div>
+            <div class="c4_test_item">3<input type="radio" name="item7"></div>
+            <div class="c4_test_item">4<input type="radio" name="item7"></div>
+            <div class="c4_test_item">5<input type="radio" name="item7"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item8"></div>
+            <div class="c4_test_item">2<input type="radio" name="item8"></div>
+            <div class="c4_test_item">3<input type="radio" name="item8"></div>
+            <div class="c4_test_item">4<input type="radio" name="item8"></div>
+            <div class="c4_test_item">5<input type="radio" name="item8"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item9"></div>
+            <div class="c4_test_item">2<input type="radio" name="item9"></div>
+            <div class="c4_test_item">3<input type="radio" name="item9"></div>
+            <div class="c4_test_item">4<input type="radio" name="item9"></div>
+            <div class="c4_test_item">5<input type="radio" name="item9"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item10"></div>
+            <div class="c4_test_item">2<input type="radio" name="item10"></div>
+            <div class="c4_test_item">3<input type="radio" name="item10"></div>
+            <div class="c4_test_item">4<input type="radio" name="item10"></div>
+            <div class="c4_test_item">5<input type="radio" name="item10"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">11</div><p>適應力強的</p></div>
+          <div class="c4_item"><div class="c4_item_title">12</div><p>積極的</p></div>
+          <div class="c4_item"><div class="c4_item_title">13</div><p>害羞的</p></div>
+          <div class="c4_item"><div class="c4_item_title">14</div><p>冷靜的</p></div>
+          <div class="c4_item"><div class="c4_item_title">15</div><p>願承擔風險的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item11"></div>
+            <div class="c4_test_item">2<input type="radio" name="item11"></div>
+            <div class="c4_test_item">3<input type="radio" name="item11"></div>
+            <div class="c4_test_item">4<input type="radio" name="item11"></div>
+            <div class="c4_test_item">5<input type="radio" name="item11"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item12"></div>
+            <div class="c4_test_item">2<input type="radio" name="item12"></div>
+            <div class="c4_test_item">3<input type="radio" name="item12"></div>
+            <div class="c4_test_item">4<input type="radio" name="item12"></div>
+            <div class="c4_test_item">5<input type="radio" name="item12"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item13"></div>
+            <div class="c4_test_item">2<input type="radio" name="item13"></div>
+            <div class="c4_test_item">3<input type="radio" name="item13"></div>
+            <div class="c4_test_item">4<input type="radio" name="item13"></div>
+            <div class="c4_test_item">5<input type="radio" name="item13"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item14"></div>
+            <div class="c4_test_item">2<input type="radio" name="item14"></div>
+            <div class="c4_test_item">3<input type="radio" name="item14"></div>
+            <div class="c4_test_item">4<input type="radio" name="item14"></div>
+            <div class="c4_test_item">5<input type="radio" name="item14"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item15"></div>
+            <div class="c4_test_item">2<input type="radio" name="item15"></div>
+            <div class="c4_test_item">3<input type="radio" name="item15"></div>
+            <div class="c4_test_item">4<input type="radio" name="item15"></div>
+            <div class="c4_test_item">5<input type="radio" name="item15"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">16</div><p>自然隨性的</p></div>
+          <div class="c4_item"><div class="c4_item_title">17</div><p>外向的</p></div>
+          <div class="c4_item"><div class="c4_item_title">18</div><p>容易興奮的</p></div>
+          <div class="c4_item"><div class="c4_item_title">19</div><p>要求嚴格的</p></div>
+          <div class="c4_item"><div class="c4_item_title">20</div><p>勤勞的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item16"></div>
+            <div class="c4_test_item">2<input type="radio" name="item16"></div>
+            <div class="c4_test_item">3<input type="radio" name="item16"></div>
+            <div class="c4_test_item">4<input type="radio" name="item16"></div>
+            <div class="c4_test_item">5<input type="radio" name="item16"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item17"></div>
+            <div class="c4_test_item">2<input type="radio" name="item17"></div>
+            <div class="c4_test_item">3<input type="radio" name="item17"></div>
+            <div class="c4_test_item">4<input type="radio" name="item17"></div>
+            <div class="c4_test_item">5<input type="radio" name="item17"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item18"></div>
+            <div class="c4_test_item">2<input type="radio" name="item18"></div>
+            <div class="c4_test_item">3<input type="radio" name="item18"></div>
+            <div class="c4_test_item">4<input type="radio" name="item18"></div>
+            <div class="c4_test_item">5<input type="radio" name="item18"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item19"></div>
+            <div class="c4_test_item">2<input type="radio" name="item19"></div>
+            <div class="c4_test_item">3<input type="radio" name="item19"></div>
+            <div class="c4_test_item">4<input type="radio" name="item19"></div>
+            <div class="c4_test_item">5<input type="radio" name="item19"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item20"></div>
+            <div class="c4_test_item">2<input type="radio" name="item20"></div>
+            <div class="c4_test_item">3<input type="radio" name="item20"></div>
+            <div class="c4_test_item">4<input type="radio" name="item20"></div>
+            <div class="c4_test_item">5<input type="radio" name="item20"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">21</div><p>慷慨的</p></div>
+          <div class="c4_item"><div class="c4_item_title">22</div><p>小心謹慎的</p></div>
+          <div class="c4_item"><div class="c4_item_title">23</div><p>傳統的</p></div>
+          <div class="c4_item"><div class="c4_item_title">24</div><p>有親和力的</p></div>
+          <div class="c4_item"><div class="c4_item_title">25</div><p>有效率的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item21"></div>
+            <div class="c4_test_item">2<input type="radio" name="item21"></div>
+            <div class="c4_test_item">3<input type="radio" name="item21"></div>
+            <div class="c4_test_item">4<input type="radio" name="item21"></div>
+            <div class="c4_test_item">5<input type="radio" name="item21"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item22"></div>
+            <div class="c4_test_item">2<input type="radio" name="item22"></div>
+            <div class="c4_test_item">3<input type="radio" name="item22"></div>
+            <div class="c4_test_item">4<input type="radio" name="item22"></div>
+            <div class="c4_test_item">5<input type="radio" name="item22"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item23"></div>
+            <div class="c4_test_item">2<input type="radio" name="item23"></div>
+            <div class="c4_test_item">3<input type="radio" name="item23"></div>
+            <div class="c4_test_item">4<input type="radio" name="item23"></div>
+            <div class="c4_test_item">5<input type="radio" name="item23"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item24"></div>
+            <div class="c4_test_item">2<input type="radio" name="item24"></div>
+            <div class="c4_test_item">3<input type="radio" name="item24"></div>
+            <div class="c4_test_item">4<input type="radio" name="item24"></div>
+            <div class="c4_test_item">5<input type="radio" name="item24"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item25"></div>
+            <div class="c4_test_item">2<input type="radio" name="item25"></div>
+            <div class="c4_test_item">3<input type="radio" name="item25"></div>
+            <div class="c4_test_item">4<input type="radio" name="item25"></div>
+            <div class="c4_test_item">5<input type="radio" name="item25"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <div class="c4_test">
+        <div class="c4_test_l">
+          <div class="c4_item"><div class="c4_item_title">26</div><p>有組織力的</p></div>
+          <div class="c4_item"><div class="c4_item_title">27</div><p>令人感到愉快的</p></div>
+          <div class="c4_item"><div class="c4_item_title">28</div><p>重視細節的</p></div>
+          <div class="c4_item"><div class="c4_item_title">29</div><p>會強求的</p></div>
+          <div class="c4_item"><div class="c4_item_title">30</div><p>有活力的</p></div>
+        </div>
+        <div class="c4_test_r">
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item26"></div>
+            <div class="c4_test_item">2<input type="radio" name="item26"></div>
+            <div class="c4_test_item">3<input type="radio" name="item26"></div>
+            <div class="c4_test_item">4<input type="radio" name="item26"></div>
+            <div class="c4_test_item">5<input type="radio" name="item26"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item27"></div>
+            <div class="c4_test_item">2<input type="radio" name="item27"></div>
+            <div class="c4_test_item">3<input type="radio" name="item27"></div>
+            <div class="c4_test_item">4<input type="radio" name="item27"></div>
+            <div class="c4_test_item">5<input type="radio" name="item27"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item28"></div>
+            <div class="c4_test_item">2<input type="radio" name="item28"></div>
+            <div class="c4_test_item">3<input type="radio" name="item28"></div>
+            <div class="c4_test_item">4<input type="radio" name="item28"></div>
+            <div class="c4_test_item">5<input type="radio" name="item28"></div>
+          </div>
+          <div class="c4_item2">
+            <div class="c4_test_item">1<input type="radio" name="item29"></div>
+            <div class="c4_test_item">2<input type="radio" name="item29"></div>
+            <div class="c4_test_item">3<input type="radio" name="item29"></div>
+            <div class="c4_test_item">4<input type="radio" name="item29"></div>
+            <div class="c4_test_item">5<input type="radio" name="item29"></div>
+          </div>
+          <div class="c4_item1">
+            <div class="c4_test_item">1<input type="radio" name="item30"></div>
+            <div class="c4_test_item">2<input type="radio" name="item30"></div>
+            <div class="c4_test_item">3<input type="radio" name="item30"></div>
+            <div class="c4_test_item">4<input type="radio" name="item30"></div>
+            <div class="c4_test_item">5<input type="radio" name="item30"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="c4_line"></div>
+      <p id="finish">本問卷及其結果將針對人格特質之學術研討相關使用</p>
+      <div id="two_btn">
+        <input type="image" src="images/btn_ok.png" onmouseover="this.src='images/btn_ok2.png'" onmouseout="this.src='images/btn_ok.png'" alt="確認">
+        <input type="image" src="images/btn_refill.png" onmouseover="this.src='images/btn_refill2.png'" onmouseout="this.src='images/btn_refill.png'" alt="重填">
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer1" class="footer">
+    日月知識股份有限公司版權所有 &copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+  <div id="footer2" class="footer">
+    日月知識股份有限公司版權所有<br>&copy; 2001 - 2013 AAK.Inc. All Rights Reserved.
+  </div>
+</div><!-- content -->
+</body>
+</html>
