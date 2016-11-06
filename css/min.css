@@ -43,7 +43,7 @@ table {
 }
 /* 2016.10.31 */
 
-@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+@import url(http://fonts.googleapis.com/css?family=Shrikhand);
 
 html,
 body {
@@ -86,7 +86,7 @@ img {
 	margin-bottom: 50px;
 	color: #333;
 	font-size: 60px;
-	font-family: 'Shrikhand';
+	font-family: 'Shrikhand', cursive;
 }
 .block .btl {
 	text-align: center;
