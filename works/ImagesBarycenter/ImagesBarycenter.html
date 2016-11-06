@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Images Barycenter</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<br>
+<input id="file" type="file">
+<br>
+<br>
+<span id="text"></span>
+<script>
+document.getElementById('file').addEventListener('change', fileOnload, false);
+function fileOnload(e) {
+	var file = e.target.files[0];
+	if (!file.type.match(/image.*/)) return;
+	var reader = new FileReader();
+	reader.onload = function(e) {
+		var canvas = document.getElementById('canvas'),
+			context = canvas.getContext('2d'),
+			img = document.createElement('img');
+		img.src = e.target.result;
+		var w = img.naturalWidth,
+			h = img.naturalHeight;
+		canvas.width = w;
+		canvas.height = h;
+		context.drawImage(img, 0, 0);
+		var imgData = context.getImageData(0, 0, w, h),
+			a = imgData.data,
+			b = 0,
+			x1 = 0,
+			y1 = 0,
+			c = 0,
+			x = 0,
+			y = 0;
+		for (var i=0,j=1; i<a.length; i+=4,j+=1) {
+			b = (765 - a[i] - a[i+1] - a[i+2])*a[i+3]/255/765;
+			x1 = (j%w) * b;
+			y1 = Math.ceil(j/w) * b;
+			c += b;
+			x += x1;
+			y += y1;
+		}
+		context.putImageData(imgData, 0, 0);
+		x = x/c;
+		y = y/c;
+		console.log('Width:' + w);
+		console.log('Height:' + h);
+		console.log('X:' + x);
+		console.log('Y:' + y);
+		document.getElementById('text').innerHTML = "The image's barycenter is X:" + Math.round(x) + ", Y:" + Math.round(y);
+	};
+	reader.readAsDataURL(file);
+}
+</script>
+</body>
+</html>
