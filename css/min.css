@@ -185,6 +185,41 @@ nav.active .st {
 	/*background: url(../images/title.png) no-repeat 0 0;
 	background-size: contain;*/
 }
+.title svg {
+	stroke: #000;
+	stroke-width: 1px;
+	stroke-dasharray: 1500;
+	-webkit-animation: svg 8s;
+			animation: svg 8s;
+	-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+}
+@-webkit-keyframes svg {
+	from {
+		stroke-dashoffset: -1500;
+		fill: none;
+	}
+	80% {
+		stroke-dashoffset: 0;
+		fill: transparent;
+	}
+	to {
+		fill: #000;
+	}
+}
+@keyframes svg {
+	from {
+		stroke-dashoffset: -1500;
+		fill: none;
+	}
+	80% {
+		stroke-dashoffset: 0;
+		fill: transparent;
+	}
+	to {
+		fill: #000;
+	}
+}
 /* about */
 .skill,
 .contact {
@@ -312,10 +347,10 @@ nav.active .st {
 	color: #666;
 	font: bold 40px 'Times New Roman';
 }
-svg {
+.skill svg {
 	position: absolute;
 }
-circle {
+.skill circle {
 	stroke-width: 20px;
 	stroke-dasharray: 565 565;
 	stroke-dashoffset: 565;
