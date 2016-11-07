@@ -92,10 +92,6 @@ img {
 	display: inline-block;
 	text-align: left;
 }
-.block .btl p span {
-	margin-left: 7.5px;
-	letter-spacing: 7.5px;
-}
 /* nav */
 nav {
 	position: absolute;
@@ -197,7 +193,7 @@ nav.active .st {
 @-webkit-keyframes svg {
 	from {
 		stroke-dashoffset: -1500;
-		fill: none;
+		fill: transparent;
 	}
 	80% {
 		stroke-dashoffset: 0;
@@ -210,7 +206,7 @@ nav.active .st {
 @keyframes svg {
 	from {
 		stroke-dashoffset: -1500;
-		fill: none;
+		fill: transparent;
 	}
 	80% {
 		stroke-dashoffset: 0;
@@ -228,6 +224,10 @@ nav.active .st {
 .about,
 .works {
 	background-color: #bfbdb2;
+}
+.about .btl p span {
+	margin-left: 7.5px;
+	letter-spacing: 7.5px;
 }
 /* flipInX */
 @-webkit-keyframes flipInX {
@@ -449,6 +449,10 @@ nav.active .st {
 }
 .contact.block p a:hover {
 	color: #333;
+}
+.contact .btl p span {
+	margin-left: 1px;
+	letter-spacing: 2px;
 }
 /* footer */
 footer {
