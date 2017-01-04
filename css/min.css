@@ -308,6 +308,10 @@ nav.active .st {
 	-webkit-animation-delay: 2s;
 			animation-delay: 2s;
 }
+.about.active .f4 {
+	-webkit-animation-delay: 3s;
+			animation-delay: 3s;
+}
 /* skill */
 .block.skill,
 .block.works {
