@@ -1,5 +1,4 @@
-,,,Coverage,Quality,VoLTE,,,,,Data,,,,,,
-Countries,States,Time,Coverage,RSRQ,Drop Call (%),Block Call (%),Setup Failure (%),Setup Time (sec),Holding Time (min),Drop Call (%),Block Call (%),Setup Failure (%),DL Volume (MB),UL Volume (MB),DL Throughput (KB),UL Throughput (KB)
+Countries,States,Time,Coverage RSRP,Quality RSRQ,VoLTE Drop Call (%),VoLTE Block Call (%),VoLTE Setup Failure (%),VoLTE Setup Time (sec),VoLTE Holding Time (min),Data Drop Call (%),Data Block Call (%),Data Setup Failure (%),Data DL Volume (MB),Data UL Volume (MB),Data DL Throughput (KB),Data UL Throughput (KB)
 Autauga County,Alabama,2/1:00 AM,-60,-13,3.38,4.9,6.54,14,632682,0.1,4.87,11.47,968303,44973,40609,1431
 Baldwin County,Alabama,2/1:00 AM,-109,-11,3.8,0.26,3.61,2.1,922300,1.15,4.69,3.22,560866,48529,44622,2763
 Barbour County,Alabama,2/1:00 AM,-64,-8,2.49,3.46,8.12,2.6,456658,3.62,4.64,11.14,591559,48672,4714,517
