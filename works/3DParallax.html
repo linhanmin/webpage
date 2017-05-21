@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Parallax</title>
+<style>
+body {
+	margin: 0;
+}
+a {
+	display: block;
+	height: 100%;
+}
+.demo {
+	position: relative;
+	width: 80%;
+	height: 500px;
+	margin: 100px auto;
+	/*perspective: 500px;*/
+	overflow: hidden;
+	outline: 1px solid pink;
+}
+/*.a,
+.b,
+.c,
+.d {
+	transform-style: preserve-3d;
+}
+.b {
+	transform: translateZ(-100px);
+}
+.c {
+	transform: translateZ(-200px);
+}
+.d {
+	transform: translateZ(-300px);
+}*/
+.a,
+.b,
+.c,
+.d {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+}
+.a {
+	z-index: 5;
+}
+.b {
+	z-index: 4;
+}
+.c {
+	z-index: 3;
+}
+.d {
+	z-index: 2;
+}
+.demo>div>div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 160px;
+	height: 100px;
+	transition: all .6s;
+}
+.a>div {
+	background-color: red;
+}
+.b>div {
+	background-color: blue;
+}
+.c>div {
+	background-color: green;
+}
+.d>div {
+	background-color: yellow;
+}
+.btn {
+	text-align: center;
+}
+.btn>div {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	margin: 5px 10px;
+	background-color: red;
+}
+</style>
+</head>
+<body>
+<div class="demo">
+	<div class="a">
+		<div class="a1"></div>
+		<div class="a2"></div>
+		<div class="a3"></div>
+		<div class="a4"></div>
+		<div class="a5"></div>
+	</div>
+	<div class="b">
+		<div class="b1"><a href="https://www.google.com.tw/" target="_blank"></a></div>
+		<div class="b2"></div>
+		<div class="b3"></div>
+		<div class="b4"></div>
+		<div class="b5"></div>
+	</div>
+	<div class="c">
+		<div class="c1"></div>
+		<div class="c2"></div>
+		<div class="c3"></div>
+		<div class="c4"></div>
+		<div class="c5"></div>
+	</div>
+	<div class="d">
+		<div class="d1"></div>
+		<div class="d2"></div>
+		<div class="d3"></div>
+		<div class="d4"></div>
+		<div class="d5"></div>
+	</div>
+</div>
+<div class="btn">
+	<div class="btn1"></div>
+	<div class="btn2"></div>
+	<div class="btn3"></div>
+	<div class="btn4"></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(function() {
+	var parnetWidth = $('.demo').width(),
+		parnetHeight = $('.demo').height(),
+		mouseX,
+		mouseY,
+		topRatio,
+		leftRatio;
+	$('.demo>div').each(function(index) {
+		var childWidth = 160 * (1 - index * 0.15),
+			childHeight = 100 * (1 - index * 0.15),
+			array = [];
+		for (var i = 0, l = $(this).children('div').length; i < l; i++) {
+			var randomTop = Math.random() * (parnetHeight - childHeight),
+				randomLeft = Math.random() * (parnetWidth - childWidth),
+				allowNew = true;
+			for (var j = 0, l2 = array.length; j < l2; j++) {
+				if (array[j][0] + childHeight + 5 > randomTop &&
+					array[j][0] - childHeight - 5 < randomTop &&
+					array[j][1] + childWidth + 5 > randomLeft &&
+					array[j][1] - childWidth - 5 < randomLeft) {
+					allowNew = false;
+					i--;
+					break;
+				}
+			}
+			if (allowNew) {
+				array.push([randomTop, randomLeft]);
+				$(this).children('div').eq(i).css({
+					'top': randomTop,
+					'left': randomLeft,
+					'width': childWidth,
+					'height': childHeight
+				});
+			}
+		}
+	});
+	$('.demo').on('mousemove', function(e) {
+		mouseX = e.clientX - $(this).offset().left;
+		mouseY = e.clientY - $(this).offset().top;
+		topRatio = mouseY / parnetHeight;
+		leftRatio = mouseX / parnetWidth;
+		$('.demo>div').each(function(index) {
+			$(this).css({
+				'top': (30 - index * 5) - ((60 - index * 10)) * topRatio,
+				'left': (30 - index * 5) - ((60 - index * 10)) * leftRatio
+			});
+		});
+		// $('.a').css({
+		// 	'top': 30 - 60 * topRatio,
+		// 	'left': 30 - 60 * leftRatio
+		// });
+		// $('.b').css({
+		// 	'top': 25 - 60 * topRatio,
+		// 	'left': 25 - 60 * leftRatio
+		// });
+		// $('.c').css({
+		// 	'top': 15 - 35 * topRatio,
+		// 	'left': 15 - 35 * leftRatio
+		// });
+		// $('.d').css({
+		// 	'top': 15 - 20 * topRatio,
+		// 	'left': 15 - 20 * leftRatio
+		// });
+	});
+	$('.btn>div').on('click', function() {
+		var index = $(this).index();
+		if ($('.demo>div').eq(index).css('z-index') != 6) {
+			$('.demo>div').each(function() {
+				$(this).css('z-index', '');
+			});
+			$('.demo>div>div').each(function() {
+				$(this).css({
+					'transform': ''
+				});
+			});
+			setTimeout(function() {
+				$('.demo>div').eq(index).css('z-index', 6);
+			}, 200);
+			$('.demo>div').eq(index).children('div').each(function() {
+				var scale = 1 + index * 0.15;
+				$(this).css({
+					'transform': 'scale(' + scale + ',' + scale + ')'
+				});
+			});
+			for (var i = 0, l = index; i < l; i++) {
+				$('.demo>div').eq(i).children('div').each(function() {
+					var scale = 1 - index * 0.15;
+					$(this).css({
+						'transform': 'scale(' + scale + ',' + scale + ')'
+					});
+				});
+			}
+		}
+	});
+	if (window.DeviceOrientationEvent) {
+		window.addEventListener('deviceorientation', function(e) {
+			var b = document.getElementById('beta'),
+				g = document.getElementById('gamma'),
+				beta = e.beta,
+				gamma = e.gamma;
+			beta = beta > -20 ? beta : -20;
+			beta = beta < 20 ? beta : 20;
+			gamma = gamma > -20 ? gamma : -20;
+			gamma = gamma < 20 ? gamma : 20;
+			topRatio = beta / 40 + 0.5;
+			leftRatio = gamma / 40 + 0.5;
+			$('.demo>div').each(function(index) {
+				$(this).css({
+					'top': (30 - index * 5) - ((60 - index * 10)) * topRatio,
+					'left': (30 - index * 5) - ((60 - index * 10)) * leftRatio
+				});
+			});
+		});
+	}
+});
+</script>
+</body>
+</html>
