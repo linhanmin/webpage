@@ -128,6 +128,8 @@ a {
 	<div class="btn3"></div>
 	<div class="btn4"></div>
 </div>
+<div class="beta"></div>
+<div class="gamma"></div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
 $(function() {
@@ -226,16 +228,14 @@ $(function() {
 	});
 	if (window.DeviceOrientationEvent) {
 		window.addEventListener('deviceorientation', function(e) {
-			var b = document.getElementById('beta'),
-				g = document.getElementById('gamma'),
-				beta = e.beta,
+			var beta = e.beta,
 				gamma = e.gamma;
 			beta = beta > -20 ? beta : -20;
 			beta = beta < 20 ? beta : 20;
 			gamma = gamma > -20 ? gamma : -20;
 			gamma = gamma < 20 ? gamma : 20;
-			b.innerHTML = beta;
-			g.innerHTML = gamma;
+			document.getElementById('beta').innerHTML = beta;
+			document.getElementById('gamma').innerHTML = gamma;
 			topRatio = beta / 40 + 0.5;
 			leftRatio = gamma / 40 + 0.5;
 			$('.demo>div').each(function(index) {
