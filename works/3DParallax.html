@@ -234,6 +234,8 @@ $(function() {
 			beta = beta < 20 ? beta : 20;
 			gamma = gamma > -20 ? gamma : -20;
 			gamma = gamma < 20 ? gamma : 20;
+			b.innerHTML = beta;
+			g.innerHTML = gamma;
 			topRatio = beta / 40 + 0.5;
 			leftRatio = gamma / 40 + 0.5;
 			$('.demo>div').each(function(index) {
