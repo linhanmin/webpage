@@ -139,35 +139,35 @@ $(function() {
 		mouseY,
 		topRatio,
 		leftRatio;
-	$('.demo>div').each(function(index) {
-		var childWidth = 160 * (1 - index * 0.15),
-			childHeight = 100 * (1 - index * 0.15),
-			array = [];
-		for (var i = 0, l = $(this).children('div').length; i < l; i++) {
-			var randomTop = Math.random() * (parnetHeight - childHeight),
-				randomLeft = Math.random() * (parnetWidth - childWidth),
-				allowNew = true;
-			for (var j = 0, l2 = array.length; j < l2; j++) {
-				if (array[j][0] + childHeight + 5 > randomTop &&
-					array[j][0] - childHeight - 5 < randomTop &&
-					array[j][1] + childWidth + 5 > randomLeft &&
-					array[j][1] - childWidth - 5 < randomLeft) {
-					allowNew = false;
-					i--;
-					break;
-				}
-			}
-			if (allowNew) {
-				array.push([randomTop, randomLeft]);
-				$(this).children('div').eq(i).css({
-					'top': randomTop,
-					'left': randomLeft,
-					'width': childWidth,
-					'height': childHeight
-				});
-			}
-		}
-	});
+	// $('.demo>div').each(function(index) {
+	// 	var childWidth = 160 * (1 - index * 0.15),
+	// 		childHeight = 100 * (1 - index * 0.15),
+	// 		array = [];
+	// 	for (var i = 0, l = $(this).children('div').length; i < l; i++) {
+	// 		var randomTop = Math.random() * (parnetHeight - childHeight),
+	// 			randomLeft = Math.random() * (parnetWidth - childWidth),
+	// 			allowNew = true;
+	// 		for (var j = 0, l2 = array.length; j < l2; j++) {
+	// 			if (array[j][0] + childHeight + 5 > randomTop &&
+	// 				array[j][0] - childHeight - 5 < randomTop &&
+	// 				array[j][1] + childWidth + 5 > randomLeft &&
+	// 				array[j][1] - childWidth - 5 < randomLeft) {
+	// 				allowNew = false;
+	// 				i--;
+	// 				break;
+	// 			}
+	// 		}
+	// 		if (allowNew) {
+	// 			array.push([randomTop, randomLeft]);
+	// 			$(this).children('div').eq(i).css({
+	// 				'top': randomTop,
+	// 				'left': randomLeft,
+	// 				'width': childWidth,
+	// 				'height': childHeight
+	// 			});
+	// 		}
+	// 	}
+	// });
 	$('.demo').on('mousemove', function(e) {
 		mouseX = e.clientX - $(this).offset().left;
 		mouseY = e.clientY - $(this).offset().top;
