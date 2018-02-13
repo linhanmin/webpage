@@ -1,0 +1,4052 @@
+[
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 9:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 8:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 7:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 6:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 5:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 4:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 3:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 22:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 21:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 20:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 2:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 19:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736743-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 18:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736663-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 17:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "735893-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 16:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 15:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 14:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "737213-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736743-14",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 13:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "745853-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "742233-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 12:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736743-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "742233-1",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "746753-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736643-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "742233-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736643-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736743-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 11:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "742233-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736743-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "742233-1",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "746753-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "737213-9",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "742233-1",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "746753-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "735893-2",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "735893-2",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 10:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "736743-14",
+    "Service": "Service4",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "742233-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "742233-7",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "736663-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "742233-1",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "745853-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "742233-7",
+    "Service": "Service3",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "735893-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "737213-9",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "736663-5",
+    "Service": "Service2",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "746753-7",
+    "Service": "Service2",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 866 Yishun St 81",
+    "eNodeBID": 746753,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 1:00",
+    "Cell Name": "736643-5",
+    "Service": "Service1",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "742233-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 440 Yishun Ave 11",
+    "eNodeBID": 742233,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "745853-9",
+    "Service": "Service1",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "736663-5",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 141 Yishun Ring Rd",
+    "eNodeBID": 736663,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "737213-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event4",
+    "eNodeB Name": "Blk 652 Yishun Ave 4",
+    "eNodeBID": 737213,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "735893-2",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "735893-2",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "736743-14",
+    "Service": "Service2",
+    "Failure Event": "Failure Event2",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "745853-9",
+    "Service": "Service3",
+    "Failure Event": "Failure Event1",
+    "eNodeB Name": "Blk 925 Yishun Central",
+    "eNodeBID": 745853,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "735893-7",
+    "Service": "Service4",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 870 Yishun St 81",
+    "eNodeBID": 735893,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "736643-5",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 114 Yishun Ring Road Lobby C D",
+    "eNodeBID": 736643,
+    "TAC ID": 710
+  },
+  {
+    "Time": "12/01/2017 0:00",
+    "Cell Name": "736743-14",
+    "Service": "Service3",
+    "Failure Event": "Failure Event3",
+    "eNodeB Name": "Blk 324 Sembawang Close",
+    "eNodeBID": 736743,
+    "TAC ID": 710
+  }
+]
