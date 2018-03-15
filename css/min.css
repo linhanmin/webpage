@@ -300,6 +300,9 @@ nav.active .st {
 	-webkit-animation-name: flipInX;
 			animation-name: flipInX;
 }
+.about.active .flipInX.f3 {
+	opacity: .6;
+}
 .about.active .f2 {
 	-webkit-animation-delay: 1s;
 			animation-delay: 1s;
@@ -311,6 +314,10 @@ nav.active .st {
 .about.active .f4 {
 	-webkit-animation-delay: 3s;
 			animation-delay: 3s;
+}
+.about.active .f5 {
+	-webkit-animation-delay: 4s;
+			animation-delay: 4s;
 }
 /* skill */
 .block.skill,
@@ -395,21 +402,21 @@ nav.active .st {
 .skill.active .html circle {
 	stroke-dashoffset: 11;
 }
-.skill.active .css circle {
+.skill.active .css circle,
+.skill.active .jq circle {
 	stroke-dashoffset: 28;
 }
-.skill.active .jq circle {
-	stroke-dashoffset: 57;
+.skill.active .js circle {
+	stroke-dashoffset: 113;
 }
-.skill.active .js circle,
+.skill.active .react circle {
+	stroke-dashoffset: 170;
+}
 .skill.active .ux circle {
 	stroke-dashoffset: 226;
 }
-.skill.active .react circle {
-	stroke-dashoffset: 282;
-}
 .skill.active .node circle {
-	stroke-dashoffset: 452;
+	stroke-dashoffset: 480;
 }
 .skill.active .php circle {
 	stroke-dashoffset: 509;
