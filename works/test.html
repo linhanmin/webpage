@@ -26,10 +26,10 @@ $(function () {
             length1 = Math.sqrt(Math.pow(e.touches[0].clientX, 2) + Math.pow(e.touches[0].clientY, 2));
             length2 = length1;
             timer = setInterval(function () {
-                if (length1 - length2 > 30) {
+                if (length2 - length1 > 30) {
                     $('body').html('<p>放大</p>');
                     end();
-                } else if (length2 - length1 > 30) {
+                } else if (length1 - length2 > 30) {
                     $('body').html('<p>縮小</p>');
                     end();
                 } else {
