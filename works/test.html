@@ -24,7 +24,7 @@ $(function () {
         changedTouches = [];
     });
     setInterval(function () {
-        $('body').html('<p>' + touches + '</p><p>' + changedTouches + '</p>');
+        $('body').html('<p>' + JSON.stringify(touches) + '</p><p>' + JSON.stringify(changedTouches + '</p>');
     }, 50);
 });
 </script>
