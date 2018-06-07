@@ -10,20 +10,32 @@ $(function () {
     // document.addEventListener('touchmove', function (e) {
     //     e.preventDefault();
     // });
-    var length1;
+    var length1,
+        length2,
+        timer;
     function move(e) {
-        length2 = Math.sqrt(Math.pow(e.touches[0].clientX - e.touches[1].clientX, 2) + Math.pow(e.touches[0].clientY - e.touches[1].clientY, 2));
-        setInterval(function () {
-            $('body').html('<p>' + length1 + '</p><p>' + length2 + '</p>');
-        }, 50);
+        length2 = Math.sqrt(Math.pow(e.touches[0].clientX, 2) + Math.pow(e.touches[0].clientY, 2));
     }
     function end() {
+        clearInterval(timer);
         document.removeEventListener('touchmove', move);
         document.removeEventListener('touchend', end);
     }
     document.addEventListener('touchstart', function (e) {
-        if (e.touches.length === 2) {
-            length1 = Math.sqrt(Math.pow(e.touches[0].clientX - e.touches[1].clientX, 2) + Math.pow(e.touches[0].clientY - e.touches[1].clientY, 2));
+        if (e.touches.length === 1) {
+            length1 = Math.sqrt(Math.pow(e.touches[0].clientX, 2) + Math.pow(e.touches[0].clientY, 2));
+            length2 = length1;
+            timer = setInterval(function () {
+                if (length1 - length2 > 10000) {
+                    $('body').html('<p>放大</p>');
+                    end();
+                } else if (length2 - length1 > 10000) {
+                    $('body').html('<p>縮小</p>');
+                    end();
+                } else {
+                    $('body').html('<p>' + length1 + '</p><p>' + length2 + '</p>');
+                }
+            }, 50);
             document.addEventListener('touchmove', move);
             document.addEventListener('touchend', end);
         }
